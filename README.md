@@ -78,10 +78,10 @@ My research bridges technical implementation with critical social impact, partic
 
 My writing explores intersectionality, identity formation, and digital anthropology through a feminist lens.
 
-### 🌍 Global Citizen
+### 🌐 Languages & Cultural Experience
 
 - **Languages** — Portuguese (native), English (fluent), French, Polish, Spanish (working proficiency)
-- **Cultural Immersion** — International work and study across Brazil, Poland, and the UK
+- **Cultural Experience** — Professional work and academic study across Brazil, Poland, and the UK
 </details>
 
 ## 🔭 Current Research Directions
