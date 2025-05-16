@@ -1,3 +1,4 @@
+<!-- Header Section with Main Banner -->
 <div align="center">
   <img src="./assets/svg/main-banner.svg" alt="Louise Ferreira - AI/ML Specialist, Cybersecurity Professional, Chevening Scholar" width="800" />
 </div>
@@ -17,29 +18,26 @@
   <a href="https://www.linkedin.com/in/louisesfer/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="Louise Ferreira LinkedIn" />
   </a>
-  <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"> {/* Replace YOUR_SCHOLAR_ID with your actual Google Scholar ID */}
-    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white&labelColor=4285F4" alt="Louise Ferreira Google Scholar" />
-  </a>
 </p>
 
 ## 🧠 Research & Technical Focus
 
-As a **Chevening Scholar** pursuing an MSc in Artificial Intelligence, my work is centered at the confluence of cutting-edge technology and critical societal impact. I specialize in:
+As a **Chevening Scholar** pursuing an MSc in Artificial Intelligence, my research synthesizes cutting-edge machine learning methodologies with critical approaches to algorithmic fairness and cybersecurity. My work concentrates on:
 
-- **Advanced Natural Language Processing:** Leveraging transformers for nuanced text analysis, with a strong emphasis on **bias detection and mitigation** strategies.
-- **Data Privacy & Algorithmic Protection:** Engineering robust techniques to secure sensitive information within AI systems and ensure data integrity.
-- **Cybersecurity Intelligence:** Applying machine learning for proactive **threat detection, vulnerability assessment, and anomaly identification**.
-- **Algorithmic Fairness & Ethics:** Championing the development and deployment of AI systems that ensure **equitable outcomes for marginalized communities** and uphold ethical principles.
+- **Advanced Natural Language Processing:** Leveraging transformer architectures and attention mechanisms for robust text analysis, with particular emphasis on **bias detection and mitigation** in embeddings and classification systems.
+- **Algorithmic Fairness & Ethics:** Developing frameworks that promote equitable outcomes across intersectional identities through fairness-aware algorithms and debiasing techniques.
+- **Cybersecurity Intelligence:** Implementing machine learning for advanced threat detection, anomaly identification, and security vulnerability assessment through predictive modeling and pattern recognition.
+- **Privacy-Preserving Machine Learning:** Engineering techniques for secure model training while protecting sensitive data through federated learning, differential privacy, and secure multi-party computation.
 
-My research endeavors to bridge rigorous technical implementation with a deep understanding of social dynamics, particularly focusing on how AI systems can both perpetuate and counteract bias across intersectional identities.
+My research bridges rigorous technical implementation with nuanced understanding of social dynamics, focusing on how AI systems can be engineered to counteract bias in high-stakes contexts.
 
 <div align="center" style="margin-top: 25px; margin-bottom: 25px;">
   <img src="./assets/svg/skills-chart.svg" alt="Technical Proficiency Matrix" width="700" />
 </div>
 
-## 🛠️ Technical Arsenal
+## 🛠️ Technical Expertise
 
-My toolkit is comprised of state-of-the-art technologies and frameworks essential for pioneering AI research and development:
+My technical arsenal encompasses state-of-the-art machine learning frameworks and methodologies:
 
 <p align="center" style="margin-top:15px; margin-bottom:15px;">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=3776AB" alt="Python" />
@@ -50,20 +48,51 @@ My toolkit is comprised of state-of-the-art technologies and frameworks essentia
   <img src="https://img.shields.io/badge/HuggingFace_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black&labelColor=FFD21E" alt="HuggingFace Transformers" />
   <img src="https://img.shields.io/badge/NLTK-38761D?style=flat-square&logo=python&logoColor=white&labelColor=38761D" alt="NLTK" />
   <img src="https://img.shields.io/badge/Microsoft_Azure_AI-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white&labelColor=0078D4" alt="Microsoft Azure AI" />
-  </p>
+</p>
 
-## 📚 Academic & Scholarly Pursuits
+## 📊 Machine Learning Methodologies
 
-My academic journey reflects a deep commitment to interdisciplinary research and excellence:
+```python
+# Sample code demonstrating my technical approach to fairness-aware NLP
+import torch
+from transformers import AutoTokenizer, AutoModel
+from fairlearn.metrics import demographic_parity_difference
 
-- **MSc in Artificial Intelligence and its Applications** – University of Essex _(Distinguished Chevening Scholar)_
+# Load pre-trained model with attention mechanism
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+model = AutoModel.from_pretrained("distilbert-base-uncased")
+
+# Implement bias mitigation through adversarial debiasing
+class AdversarialDebiasing(torch.nn.Module):
+    def __init__(self, base_model, protected_attribute_size):
+        super().__init__()
+        self.base_model = base_model
+        self.task_head = torch.nn.Linear(768, 1)
+        self.adversary = torch.nn.Sequential(
+            torch.nn.Linear(768, 256),
+            torch.nn.ReLU(),
+            torch.nn.Linear(256, protected_attribute_size)
+        )
+
+    def forward(self, input_ids, attention_mask):
+        embeddings = self.base_model(input_ids, attention_mask).last_hidden_state[:, 0, :]
+        task_pred = self.task_head(embeddings)
+        protected_pred = self.adversary(embeddings.detach())
+        return task_pred, protected_pred
+```
+
+## 📚 Academic Background
+
+My interdisciplinary academic journey reflects my commitment to integrating technical excellence with ethical considerations:
+
+- **MSc in Artificial Intelligence and its Applications** – University of Essex _(Chevening Scholar)_
 - **MA in Cultural Studies (Transatlantic Studies)** – Jagiellonian University, Kraków
 - **BA in International Relations** – Federal University of Santa Catarina, Brazil
 - **Certificate in Data Privacy and Technology** – Harvard University (Online)
 
-## 🎭 The Dark Aesthete: Beyond the Algorithm 💀
+## 🎭 Beyond the Algorithm: Creative Dimensions
 
-While my professional focus is on the logical structures of AI, my intellectual curiosity extends to the rich tapestry of human expression and experience. This "geek side" profoundly informs my perspective on technology's role in society.
+While my professional focus centers on AI systems and computational methodologies, my intellectual curiosity extends to the rich tapestry of human expression. These diverse interests fundamentally inform my perspective on technology's role in society.
 
 <details style="margin-top: 10px; margin-bottom:25px; background-color: #23272E; border-radius: 8px; padding: 15px; border: 1px solid #30363D;">
   <summary style="font-weight: bold; color: #BB86FC; cursor: pointer;">Click to explore my world of inspirations...</summary>
@@ -94,25 +123,39 @@ While my professional focus is on the logical structures of AI, my intellectual 
   </div>
 </details>
 
-## 🔭 Current Research Trajectories & Collaborations
+## 🔬 Current Research Trajectories
 
 I am actively investigating and seeking collaborations in the following areas:
 
-- **Bias Detection and Mitigation in Recommender Systems:** With a specific focus on tagging mechanisms and content classification fairness.
-- **Advanced Fairness Metrics for NLP Models:** Developing more nuanced and context-aware evaluation frameworks for language technologies.
-- **Secure and Private Federated Learning:** Exploring innovative privacy-preserving methodologies for distributed machine learning model training.
+- **Deep Learning for Algorithmic Bias Detection:** Developing novel architectures to identify and mitigate bias in classification and recommendation systems, with particular focus on tagging mechanisms that affect content discoverability.
 
-I am keen to connect with fellow researchers, industry professionals, and organizations passionate about advancing AI ethics, enhancing cybersecurity, and driving positive social impact through technology.
+- **Interpretability in Large Language Models:** Exploring methods to enhance model transparency through attention visualization, influence functions, and counterfactual explanation generation for high-stakes NLP applications.
+
+- **Cybersecurity-Enhanced Federated Learning:** Investigating privacy-preserving machine learning methodologies that maintain model performance while protecting sensitive training data through secure aggregation protocols.
+
+- **Fairness Metrics Beyond Accuracy:** Formulating evaluation frameworks that capture nuanced fairness considerations across intersectional dimensions, particularly in contexts where marginalized communities face disproportionate risks.
+
+I welcome connections with researchers, industry professionals, and organizations dedicated to advancing ethical AI, enhancing cybersecurity, and developing technology with justice and equity at its core.
 
 ---
 
-<div align="center" style="margin-top: 20px;">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake-dark.svg?sanitize=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake.svg?sanitize=true">
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake.svg?sanitize=true">
-  </picture>
-</div>
-<div align="center" style="margin-top: 10px; font-size: 0.8em; color: #757575;">
-  Snake animation dynamically displays my GitHub contribution activity.
+<!-- Custom SVG for Machine Learning Animation -->
+<div align="center">
+  <svg width="600" height="100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .small-caps { font-variant: small-caps; }
+      @keyframes pulse {
+        0% { opacity: 0.6; }
+        50% { opacity: 1; }
+        100% { opacity: 0.6; }
+      }
+      .pulse {
+        animation: pulse 3s infinite ease-in-out;
+      }
+    </style>
+    <rect width="100%" height="100%" fill="#1A1D23" rx="10" ry="10" />
+    <text x="300" y="38" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="16" fill="#BB86FC" text-anchor="middle" class="small-caps pulse">Machine Learning • Ethics • Cybersecurity</text>
+    <line x1="150" y1="50" x2="450" y2="50" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5" />
+    <text x="300" y="75" font-family="'Courier New', monospace" font-size="14" fill="#00BCD4" text-anchor="middle" class="pulse">Building equitable AI systems through rigorous technical innovation</text>
+  </svg>
 </div>
