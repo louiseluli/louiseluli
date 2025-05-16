@@ -1,0 +1,75 @@
+<svg width="700" height="200" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', monospace;">
+  <!-- Background -->
+  <rect width="100%" height="100%" rx="8" fill="#1A1D23"/>
+  <rect x="5" y="5" width="690" height="190" rx="6" fill="#252A33" stroke="#3A3F4B" stroke-width="1"/>
+  
+  <!-- Code Editor Header -->
+  <rect x="5" y="5" width="690" height="25" rx="6" fill="#3A3F4B"/>
+  <circle cx="20" cy="17" r="6" fill="#FF5F57"/>
+  <circle cx="40" cy="17" r="6" fill="#FEBC2E"/>
+  <circle cx="60" cy="17" r="6" fill="#28C840"/>
+  <text x="350" y="21" font-size="12" fill="#A0A0A0" text-anchor="middle">fairness_utils.py</text>
+  
+  <!-- Line Numbers -->
+  <rect x="5" y="30" width="30" height="165" fill="#1E2127"/>
+  <text x="20" y="50" font-size="12" fill="#606572" text-anchor="middle">1</text>
+  <text x="20" y="70" font-size="12" fill="#606572" text-anchor="middle">2</text>
+  <text x="20" y="90" font-size="12" fill="#606572" text-anchor="middle">3</text>
+  <text x="20" y="110" font-size="12" fill="#606572" text-anchor="middle">4</text>
+  <text x="20" y="130" font-size="12" fill="#606572" text-anchor="middle">5</text>
+  <text x="20" y="150" font-size="12" fill="#606572" text-anchor="middle">6</text>
+  <text x="20" y="170" font-size="12" fill="#606572" text-anchor="middle">7</text>
+  <text x="20" y="190" font-size="12" fill="#606572" text-anchor="middle">8</text>
+  
+  <!-- Code Content -->
+  <text x="45" y="50" font-size="12" fill="#B392F0">def</text>
+  <text x="65" y="50" font-size="12" fill="#D2A8FF">mitigate_bias</text>
+  <text x="145" y="50" font-size="12" fill="#E0E0E0">(model, protected_attributes, fairness_metric=</text>
+  <text x="465" y="50" font-size="12" fill="#9ECBFF">"demographic_parity"</text>
+  <text x="615" y="50" font-size="12" fill="#E0E0E0">):</text>
+  
+  <text x="45" y="70" font-size="12" fill="#7A7F8C">"""Mitigate bias in machine learning models using post-processing techniques."""</text>
+  
+  <text x="45" y="90" font-size="12" fill="#FF7B72">if</text>
+  <text x="60" y="90" font-size="12" fill="#E0E0E0">fairness_metric == </text>
+  <text x="170" y="90" font-size="12" fill="#9ECBFF">"demographic_parity"</text>
+  <text x="300" y="90" font-size="12" fill="#E0E0E0">:</text>
+  
+  <text x="60" y="110" font-size="12" fill="#FF7B72">return</text>
+  <text x="95" y="110" font-size="12" fill="#D2A8FF">equalized_odds_postprocessing</text>
+  <text x="280" y="110" font-size="12" fill="#E0E0E0">(model, protected_attributes)</text>
+  
+  <text x="45" y="130" font-size="12" fill="#FF7B72">elif</text>
+  <text x="75" y="130" font-size="12" fill="#E0E0E0">fairness_metric == </text>
+  <text x="185" y="130" font-size="12" fill="#9ECBFF">"equal_opportunity"</text>
+  <text x="315" y="130" font-size="12" fill="#E0E0E0">:</text>
+  
+  <text x="60" y="150" font-size="12" fill="#FF7B72">return</text>
+  <text x="95" y="150" font-size="12" fill="#D2A8FF">reweighing_preprocessing</text>
+  <text x="260" y="150" font-size="12" fill="#E0E0E0">(model, protected_attributes)</text>
+  
+  <text x="45" y="170" font-size="12" fill="#FF7B72">else</text>
+  <text x="75" y="170" font-size="12" fill="#E0E0E0">:</text>
+  
+  <text x="60" y="190" font-size="12" fill="#FF7B72">raise</text>
+  <text x="95" y="190" font-size="12" fill="#FF7B72">ValueError</text>
+  <text x="165" y="190" font-size="12" fill="#E0E0E0">(</text>
+  <text x="170" y="190" font-size="12" fill="#9ECBFF">f"Unsupported fairness metric: {fairness_metric}"</text>
+  <text x="480" y="190" font-size="12" fill="#E0E0E0">)</text>
+  
+  <!-- Cursor Animation -->
+  <rect x="480" y="188" width="8" height="14" fill="#BB86FC" opacity="0.7">
+    <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Code Editor Reflection -->
+  <rect x="5" y="5" width="690" height="190" rx="6" fill="url(#editorGlow)" opacity="0.1"/>
+  <defs>
+    <linearGradient id="editorGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BB86FC" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#E91E63" stop-opacity="0.05"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+</svg>

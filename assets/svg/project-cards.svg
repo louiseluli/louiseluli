@@ -1,0 +1,140 @@
+<svg width="800" height="320" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Segoe UI', Arial, sans-serif;">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#1A1D23" />
+  
+  <!-- Project Card 1: Sentiment Analysis -->
+  <g transform="translate(30, 30)">
+    <rect width="350" height="120" rx="8" fill="#252A33" stroke="#3A3F4B" stroke-width="1"/>
+    
+    <!-- Header -->
+    <rect width="350" height="30" rx="8 8 0 0" fill="#BB86FC" fill-opacity="0.2"/>
+    <text x="15" y="20" font-size="14" fill="#BB86FC" font-weight="600">Sentiment Analysis with Transformers</text>
+    
+    <!-- Technology Pills -->
+    <rect x="15" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="45" y="54" font-size="10" fill="#E91E63" text-anchor="middle">RoBERTa</text>
+    
+    <rect x="85" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="115" y="54" font-size="10" fill="#00BCD4" text-anchor="middle">PyTorch</text>
+    
+    <rect x="155" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="185" y="54" font-size="10" fill="#00E676" text-anchor="middle">HuggingFace</text>
+    
+    <!-- Metrics -->
+    <text x="15" y="80" font-size="12" fill="#E0E0E0">F1 Score: <tspan fill="#00E676">92.3%</tspan></text>
+    <text x="150" y="80" font-size="12" fill="#E0E0E0">Accuracy: <tspan fill="#00E676">94.1%</tspan></text>
+    
+    <!-- Description -->
+    <text x="15" y="100" font-size="11" fill="#A0A0A0">Fine-tuned transformer model for nuanced sentiment detection</text>
+    
+    <!-- Performance Chart (Simple representation) -->
+    <rect x="265" y="50" width="70" height="50" rx="4" fill="#2A2D33"/>
+    <rect x="270" y="70" width="10" height="25" fill="#E91E63"/>
+    <rect x="285" y="60" width="10" height="35" fill="#BB86FC"/>
+    <rect x="300" y="55" width="10" height="40" fill="#00BCD4"/>
+    <rect x="315" y="50" width="10" height="45" fill="#00E676"/>
+    <text x="300" y="110" font-size="8" fill="#808080" text-anchor="middle">Performance Metrics</text>
+  </g>
+  
+  <!-- Project Card 2: Bias Detection -->
+  <g transform="translate(420, 30)">
+    <rect width="350" height="120" rx="8" fill="#252A33" stroke="#3A3F4B" stroke-width="1"/>
+    
+    <!-- Header -->
+    <rect width="350" height="30" rx="8 8 0 0" fill="#00BCD4" fill-opacity="0.2"/>
+    <text x="15" y="20" font-size="14" fill="#00BCD4" font-weight="600">Algorithmic Bias Detection Framework</text>
+    
+    <!-- Technology Pills -->
+    <rect x="15" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="45" y="54" font-size="10" fill="#E91E63" text-anchor="middle">Fairlearn</text>
+    
+    <rect x="85" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="115" y="54" font-size="10" fill="#00BCD4" text-anchor="middle">AIF360</text>
+    
+    <rect x="155" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="185" y="54" font-size="10" fill="#00E676" text-anchor="middle">SHAP</text>
+    
+    <!-- Metrics -->
+    <text x="15" y="80" font-size="12" fill="#E0E0E0">DI Score: <tspan fill="#00E676">0.92</tspan></text>
+    <text x="150" y="80" font-size="12" fill="#E0E0E0">EOdds Diff: <tspan fill="#00E676">0.04</tspan></text>
+    
+    <!-- Description -->
+    <text x="15" y="100" font-size="11" fill="#A0A0A0">Framework for detecting algorithmic bias in ML classification</text>
+    
+    <!-- Simple Node Graph (fairness visualization) -->
+    <rect x="265" y="50" width="70" height="50" rx="4" fill="#2A2D33"/>
+    <circle cx="280" cy="65" r="5" fill="#E91E63"/>
+    <circle cx="300" cy="80" r="5" fill="#BB86FC"/>
+    <circle cx="320" cy="65" r="5" fill="#00BCD4"/>
+    <line x1="280" y1="65" x2="300" y2="80" stroke="#404550" stroke-width="1"/>
+    <line x1="300" y1="80" x2="320" y2="65" stroke="#404550" stroke-width="1"/>
+    <text x="300" y="110" font-size="8" fill="#808080" text-anchor="middle">Fairness Metrics</text>
+  </g>
+  
+  <!-- Project Card 3: Transformer Recommendation -->
+  <g transform="translate(30, 170)">
+    <rect width="350" height="120" rx="8" fill="#252A33" stroke="#3A3F4B" stroke-width="1"/>
+    
+    <!-- Header -->
+    <rect width="350" height="30" rx="8 8 0 0" fill="#E91E63" fill-opacity="0.2"/>
+    <text x="15" y="20" font-size="14" fill="#E91E63" font-weight="600">Hybrid Recommender System</text>
+    
+    <!-- Technology Pills -->
+    <rect x="15" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="45" y="54" font-size="10" fill="#E91E63" text-anchor="middle">SVD</text>
+    
+    <rect x="85" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="115" y="54" font-size="10" fill="#00BCD4" text-anchor="middle">BERT</text>
+    
+    <rect x="155" y="40" width="60" height="20" rx="10" fill="#2A2D33"/>
+    <text x="185" y="54" font-size="10" fill="#00E676" text-anchor="middle">Pandas</text>
+    
+    <!-- Metrics -->
+    <text x="15" y="80" font-size="12" fill="#E0E0E0">NDCG: <tspan fill="#00E676">0.89</tspan></text>
+    <text x="150" y="80" font-size="12" fill="#E0E0E0">MAP: <tspan fill="#00E676">0.76</tspan></text>
+    
+    <!-- Description -->
+    <text x="15" y="100" font-size="11" fill="#A0A0A0">Content-based and collaborative filtering with fairness constraints</text>
+    
+    <!-- Simple Visualization -->
+    <rect x="265" y="50" width="70" height="50" rx="4" fill="#2A2D33"/>
+    <circle cx="285" cy="65" r="8" fill="#E91E63" opacity="0.7"/>
+    <circle cx="315" cy="65" r="8" fill="#00BCD4" opacity="0.7"/>
+    <circle cx="300" cy="85" r="8" fill="#00E676" opacity="0.7"/>
+    <text x="300" y="110" font-size="8" fill="#808080" text-anchor="middle">Hybrid Architecture</text>
+  </g>
+  
+  <!-- Project Card 4: Adult Content Analysis -->
+  <g transform="translate(420, 170)">
+    <rect width="350" height="120" rx="8" fill="#252A33" stroke="#3A3F4B" stroke-width="1"/>
+    
+    <!-- Header -->
+    <rect width="350" height="30" rx="8 8 0 0" fill="#00E676" fill-opacity="0.2"/>
+    <text x="15" y="20" font-size="14" fill="#00E676" font-weight="600">Intersectional Metadata Analysis</text>
+    
+    <!-- Technology Pills -->
+    <rect x="15" y="40" width="75" height="20" rx="10" fill="#2A2D33"/>
+    <text x="52" y="54" font-size="10" fill="#E91E63" text-anchor="middle">Clustering</text>
+    
+    <rect x="100" y="40" width="75" height="20" rx="10" fill="#2A2D33"/>
+    <text x="137" y="54" font-size="10" fill="#00BCD4" text-anchor="middle">Text Analysis</text>
+    
+    <rect x="185" y="40" width="75" height="20" rx="10" fill="#2A2D33"/>
+    <text x="222" y="54" font-size="10" fill="#00E676" text-anchor="middle">Scikit-learn</text>
+    
+    <!-- Dataset Info -->
+    <text x="15" y="80" font-size="12" fill="#E0E0E0">Dataset: <tspan fill="#BB86FC">134,350 items</tspan></text>
+    <text x="180" y="80" font-size="12" fill="#E0E0E0">Categories: <tspan fill="#BB86FC">9</tspan></text>
+    
+    <!-- Description -->
+    <text x="15" y="100" font-size="11" fill="#A0A0A0">Analysis of representation bias in adult content metadata</text>
+    
+    <!-- Simple Visualization -->
+    <rect x="265" y="50" width="70" height="50" rx="4" fill="#2A2D33"/>
+    <rect x="275" y="90" width="10" height="5" fill="#E91E63"/>
+    <rect x="290" y="70" width="10" height="25" fill="#BB86FC"/>
+    <rect x="305" y="60" width="10" height="35" fill="#00BCD4"/>
+    <rect x="320" y="80" width="10" height="15" fill="#00E676"/>
+    <text x="300" y="110" font-size="8" fill="#808080" text-anchor="middle">Representation Distribution</text>
+  </g>
+</svg>

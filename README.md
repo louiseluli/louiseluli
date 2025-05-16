@@ -32,6 +32,11 @@
   <img src="./assets/svg/research-focus-banner.svg" alt="Research Focus: AI Ethics & Fairness" width="800" />
 </div>
 
+<!-- NEW: Add Research Interconnections Visualization -->
+<div align="center">
+  <img src="./assets/svg/neural-network-banner.svg" alt="Research Interconnections Map" width="700" />
+</div>
+
 <h2 align="center">Research Areas</h2>
 
 <table>
@@ -53,6 +58,20 @@
     </td>
   </tr>
 </table>
+
+<!-- NEW: Add Project Cards Section -->
+<h2 align="center">Featured Projects</h2>
+
+<div align="center">
+  <img src="./assets/svg/project-cards.svg" alt="AI/ML Projects" width="800" />
+</div>
+
+<!-- NEW: Add Code Snippet Example -->
+<h2 align="center">Code Snapshot: Fairness-Aware ML</h2>
+
+<div align="center">
+  <img src="./assets/svg/code-snippet.svg" alt="Fairness Code Example" width="700" />
+</div>
 
 <h3 align="center">Academic Journey</h3>
 
@@ -76,6 +95,18 @@
       <td align="left" width="45%"><b>BA in International Relations</b><br>Federal University of Santa Catarina</td>
     </tr>
   </table>
+</div>
+
+<!-- NEW: Add GitHub Stats Section -->
+<h2 align="center">GitHub & Development Metrics</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=louiseluli&show_icons=true&theme=material-palenight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=louiseluli&theme=material-palenight&hide_border=true" alt="Streak Stats" height="170"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=louiseluli&layout=compact&theme=material-palenight&hide_border=true" alt="Top Languages" height="200"/>
 </div>
 
 <h2 align="center">Research & Publications</h2>
@@ -173,6 +204,11 @@
      alt="Skills Chart"
      width="700" />
 
+<!-- NEW: Add Terminal-style Animation -->
+<div align="center">
+  <img src="./assets/svg/ai-ml-animation.svg" alt="AI Terminal" width="800" />
+</div>
+
 ### Connect
 
 <p align="center">
@@ -189,6 +225,19 @@
 <div align="center">
   <i>Bringing together technical excellence, lived experience, and interdisciplinary perspectives<br>to create more equitable and representative AI systems</i>
 </div>
+
+### Expertise & Certifications
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NLP-Transformers%20%7C%20BERT%20%7C%20RoBERTa-E91E63?style=for-the-badge" alt="NLP Expertise" />
+  <img src="https://img.shields.io/badge/AI%20Ethics-Fairness%20%7C%20Bias%20Detection-BB86FC?style=for-the-badge" alt="AI Ethics" />
+  <img src="https://img.shields.io/badge/ML-PyTorch%20%7C%20Scikit--learn%20%7C%20Pandas-00BCD4?style=for-the-badge" alt="Machine Learning" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Cybersecurity-DLP%20%7C%20OSINT%20%7C%20Privacy-00E676?style=for-the-badge" alt="Cybersecurity" />
+  <img src="https://img.shields.io/badge/BigID-Certified%20Master%20Admin-FFCB6B?style=for-the-badge" alt="BigID Certification" />
+  <img src="https://img.shields.io/badge/Fairness%20Metrics-Equal%20Opportunity%20%7C%20Demographic%20Parity-6A7FDB?style=for-the-badge" alt="Fairness Metrics" />
+</p>
 
 ---
 
