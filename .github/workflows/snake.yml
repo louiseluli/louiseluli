@@ -1,38 +1,25 @@
-# GitHub Action for generating a contribution snake animation
-name: Generate Snake Animation
+@louiselulilouiseluli
+pushed
+ b0eefe5
+main
+Status
+Failure
+Total duration
+17s
+Artifacts
+–
 
-# Controls when the action will run
-on:
-  # Run automatically every 12 hours
-  schedule:
-    - cron: "0 */12 * * *"
-  # Allows manual workflow runs
-  workflow_dispatch:
-  # Run on push to main branch
-  push:
-    branches: [main]
+generate
+13s
+Oh hello! Nice to see you.
 
-# Jobs to run
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      # Check out repository
-      - uses: actions/checkout@v2
+Made with ❤️ by humans.txt
 
-      # Generate the snake animation using Platane/snk
-      - uses: Platane/snk@master
-        id: snake-gif
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          svg_out_path_dark: dist/github-contribution-grid-snake-dark.svg
-
-      # Push the generated files to the output branch
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v2.6.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+Annotations
+1 error and 2 warnings
+generate
+The process '/usr/bin/git' failed with exit code 128
+generate
+The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+generate
+Unexpected input(s) 'svg_out_path_dark', valid inputs are ['entryPoint', 'args', 'github_user_name', 'gif_out_path', 'svg_out_path']
