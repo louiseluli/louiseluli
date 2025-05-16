@@ -3,6 +3,14 @@
   <img src="./assets/svg/main-banner.svg" alt="Louise Ferreira" width="800" />
 </div>
 
+<!-- Profile Image -->
+<div align="center" style="margin: 20px 0;">
+  <img src="./assets/images/profile-image.jpg"
+       alt="Louise Ferreira"
+       width="160"
+       style="border-radius:50%; border:3px solid #BB86FC;" />
+</div>
+
 ## Louise Ferreira (Luli)
 
 <div align="center">
@@ -24,7 +32,7 @@
   <img src="./assets/svg/research-focus-banner.svg" alt="Research Focus: AI Ethics & Fairness" width="800" />
 </div>
 
-### Research Areas
+<h2 align="center">Research Areas</h2>
 
 <table>
   <tr>
@@ -46,7 +54,7 @@
   </tr>
 </table>
 
-### Academic Journey
+<h3 align="center">Academic Journey</h3>
 
 <div align="center">
   <table>
@@ -70,7 +78,7 @@
   </table>
 </div>
 
-### Research & Publications
+<h2 align="center">Research & Publications</h2>
 
 <table>
 <tr>
@@ -161,7 +169,9 @@
 
 ### Technical Proficiency
 
-<img src="./assets/svg/skills-chart.svg" alt="Skills Chart" width="700" />
+<img src="./assets/svg/skills-chart.svg"
+     alt="Skills Chart"
+     width="700" />
 
 ### Connect
 

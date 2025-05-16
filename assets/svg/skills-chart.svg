@@ -34,13 +34,13 @@
   <g transform="translate(0, 80)">
     <text x="50" y="20" font-size="16" fill="#E0E0E0" font-weight="600">
       <tspan>LVL 92</tspan> 
-      <tspan dx="10" fill="#E91E63">NLP</tspan>
+      <tspan dx="10" fill="#E91E63" font-size="13">NATURAL LANGUAGE</tspan>
     </text>
     <!-- Game-style progress bar background - pixelated border -->
-    <rect x="220" y="5" width="410" height="25" rx="2" stroke="#504060" stroke-width="2" fill="#2A2D33" />
+    <rect x="280" y="5" width="350" height="25" rx="2" stroke="#504060" stroke-width="2" fill="#2A2D33" />
     <!-- Progress indicator with gaming animation -->
-    <rect x="220" y="5" width="0" height="25" rx="2" fill="url(#nlpGradient)">
-      <animate attributeName="width" from="0" to="377" dur="1.5s" fill="freeze" begin="0.2s"/>
+    <rect x="280" y="5" width="0" height="25" rx="2" fill="url(#nlpGradient)">
+      <animate attributeName="width" from="0" to="322" dur="1.5s" fill="freeze" begin="0.2s"/>
     </rect>
     <defs>
       <linearGradient id="nlpGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -57,11 +57,11 @@
   <g transform="translate(0, 130)">
     <text x="50" y="20" font-size="16" fill="#E0E0E0" font-weight="600">
       <tspan>LVL 86</tspan> 
-      <tspan dx="10" fill="#BB86FC">ML</tspan>
+      <tspan dx="10" fill="#BB86FC" font-size="14">MACHINE LEARNING</tspan>
     </text>
-    <rect x="220" y="5" width="410" height="25" rx="2" stroke="#504060" stroke-width="2" fill="#2A2D33" />
-    <rect x="220" y="5" width="0" height="25" rx="2" fill="url(#mlGradient)">
-      <animate attributeName="width" from="0" to="353" dur="1.5s" fill="freeze" begin="0.4s"/>
+    <rect x="280" y="5" width="350" height="25" rx="2" stroke="#504060" stroke-width="2" fill="#2A2D33" />
+    <rect x="280" y="5" width="0" height="25" rx="2" fill="url(#mlGradient)">
+      <animate attributeName="width" from="0" to="301" dur="1.5s" fill="freeze" begin="0.4s"/>
     </rect>
     <defs>
       <linearGradient id="mlGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -77,11 +77,11 @@
   <g transform="translate(0, 180)">
     <text x="50" y="20" font-size="16" fill="#E0E0E0" font-weight="600">
       <tspan>LVL 80</tspan> 
-      <tspan dx="10" fill="#00BCD4">DEEP LEARNING</tspan>
+      <tspan dx="10" fill="#00BCD4" font-size="14">DEEP LEARNING</tspan>
     </text>
-    <rect x="220" y="5" width="410" height="25" rx="2" stroke="#504060" stroke-width="2" fill="#2A2D33" />
-    <rect x="220" y="5" width="0" height="25" rx="2" fill="url(#dlGradient)">
-      <animate attributeName="width" from="0" to="328" dur="1.5s" fill="freeze" begin="0.6s"/>
+    <rect x="280" y="5" width="350" height="25" rx="2" stroke="#504060" stroke-width="2" fill="#2A2D33" />
+    <rect x="280" y="5" width="0" height="25" rx="2" fill="url(#dlGradient)">
+      <animate attributeName="width" from="0" to="280" dur="1.5s" fill="freeze" begin="0.6s"/>
     </rect>
     <defs>
       <linearGradient id="dlGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -97,11 +97,11 @@
   <g transform="translate(0, 230)">
     <text x="50" y="20" font-size="16" fill="#E0E0E0" font-weight="600">
       <tspan>LVL 74</tspan> 
-      <tspan dx="10" fill="#00E676">FAIRNESS-AI</tspan>
+      <tspan dx="10" fill="#00E676" font-size="13">FAIRNESS-AWARE AI</tspan>
     </text>
-    <rect x="220" y="5" width="410" height="25" rx="2" stroke="#504060" stroke-width="2" fill="#2A2D33" />
-    <rect x="220" y="5" width="0" height="25" rx="2" fill="url(#fairGradient)">
-      <animate attributeName="width" from="0" to="303" dur="1.5s" fill="freeze" begin="0.8s"/>
+    <rect x="280" y="5" width="350" height="25" rx="2" stroke="#504060" stroke-width="2" fill="#2A2D33" />
+    <rect x="280" y="5" width="0" height="25" rx="2" fill="url(#fairGradient)">
+      <animate attributeName="width" from="0" to="259" dur="1.5s" fill="freeze" begin="0.8s"/>
     </rect>
     <defs>
       <linearGradient id="fairGradient" x1="0%" y1="0%" x2="100%" y2="0%">

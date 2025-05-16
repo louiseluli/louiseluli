@@ -1,14 +1,18 @@
 <svg width="800" height="120" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Segoe UI', Arial, sans-serif;">
  <rect width="100%" height="100%" fill="#23272E" />
-
-<!-- Define gradient for text -->
+<!-- Gradient definitions -->
 <defs>
 <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
 <stop offset="0%" stop-color="#00BCD4"/>
 <stop offset="50%" stop-color="#BB86FC"/>
 <stop offset="100%" stop-color="#E91E63"/>
+<animate attributeName="x1" values="0%;100%;0%" dur="15s" repeatCount="indefinite" />
+<animate attributeName="x2" values="100%;200%;100%" dur="15s" repeatCount="indefinite" />
 </linearGradient>
-
+<filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+<feGaussianBlur stdDeviation="3" result="blur"/>
+<feComposite in="SourceGraphic" in2="blur" operator="over"/>
+</filter>
 <!-- Research-specific patterns -->
 <pattern id="fairnessPattern" width="80" height="20" patternUnits="userSpaceOnUse">
   <text x="5" y="15" font-size="10" fill="#BB86FC" opacity="0.2">fairness</text>
@@ -17,42 +21,60 @@
   <text x="5" y="15" font-size="10" fill="#00BCD4" opacity="0.2">transformer</text>
 </pattern>
 </defs>
-
 <!-- Background patterns -->
 <rect width="100%" height="100%" fill="url(#fairnessPattern)" opacity="0.3"/>
 <rect width="100%" height="100%" fill="url(#nlpPattern)" opacity="0.2"/>
-
-<!-- Main title -->
-<text x="400" y="45" font-size="24" fill="url(#textGradient)" text-anchor="middle" font-weight="bold" letter-spacing="0.8">
+<!-- Main title with enhanced animation -->
+<text x="400" y="45" font-size="26" fill="url(#textGradient)" text-anchor="middle" font-weight="bold" letter-spacing="1.2" filter="url(#glow)">
  RESEARCH FOCUS: FAIRNESS-AWARE ML SYSTEMS
+<animate attributeName="opacity" values="0.9;1;0.9" dur="4s" repeatCount="indefinite" />
 </text>
-
 <!-- Research subtopics -->
 <text x="400" y="75" font-size="16" fill="#E0E0E0" text-anchor="middle" opacity="0.8">
  <tspan x="180" dy="0">NLP Bias Detection</tspan>
  <tspan x="400" dy="0">Intersectional Fairness</tspan>
  <tspan x="620" dy="0">Autoethnographic Methods</tspan>
 </text>
-
-<!-- Neural network node representation on left -->
+<!-- Dynamic elements representing ML concepts -->
 <g transform="translate(60,35)" opacity="0.7">
-  <circle cx="10" cy="10" r="3" fill="#BB86FC" />
-  <circle cx="20" cy="0" r="3" fill="#00BCD4" />
-  <circle cx="20" cy="20" r="3" fill="#E91E63" />
-  <line x1="10" y1="10" x2="20" y2="0" stroke="#BB86FC" stroke-width="0.5"/>
-  <line x1="10" y1="10" x2="20" y2="20" stroke="#BB86FC" stroke-width="0.5"/>
+  <!-- Neural network node representation -->
+  <circle cx="10" cy="10" r="3" fill="#BB86FC">
+    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="20" cy="0" r="3" fill="#00BCD4">
+    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="20" cy="20" r="3" fill="#E91E63">
+    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <line x1="10" y1="10" x2="20" y2="0" stroke="#BB86FC" stroke-width="0.8"/>
+  <line x1="10" y1="10" x2="20" y2="20" stroke="#BB86FC" stroke-width="0.8"/>
 </g>
-
-<!-- Neural network on right side -->
+<!-- Mirrored neural network on right side -->
 <g transform="translate(710,35)" opacity="0.7">
-  <circle cx="10" cy="10" r="3" fill="#BB86FC" />
-  <circle cx="0" cy="0" r="3" fill="#00BCD4" />
-  <circle cx="0" cy="20" r="3" fill="#E91E63" />
-  <line x1="10" y1="10" x2="0" y2="0" stroke="#BB86FC" stroke-width="0.5"/>
-  <line x1="10" y1="10" x2="0" y2="20" stroke="#BB86FC" stroke-width="0.5"/>
+  <circle cx="10" cy="10" r="3" fill="#BB86FC">
+    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="0" cy="0" r="3" fill="#00BCD4">
+    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="0" cy="20" r="3" fill="#E91E63">
+    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" begin="2.5s"/>
+  </circle>
+  <line x1="10" y1="10" x2="0" y2="0" stroke="#BB86FC" stroke-width="0.8"/>
+  <line x1="10" y1="10" x2="0" y2="20" stroke="#BB86FC" stroke-width="0.8"/>
 </g>
-
 <!-- Binary code specific to AI/ML -->
 <text x="90" y="110" font-size="9" font-family="monospace" fill="#30363D">101101 fairness 110010 bias 101010 ethics 001101</text>
 <text x="500" y="20" font-size="9" font-family="monospace" fill="#30363D">011001 transformer 100101 equity 110100</text>
+
+<!-- Data flow animation -->
+<circle cx="60" cy="35" r="2" fill="#E91E63" opacity="0">
+  <animate attributeName="cx" values="60;400;710" dur="4s" repeatCount="indefinite" begin="0s" />
+  <animate attributeName="opacity" values="0;0.8;0" dur="4s" repeatCount="indefinite" begin="0s" />
+</circle>
+<circle cx="710" cy="35" r="2" fill="#00BCD4" opacity="0">
+  <animate attributeName="cx" values="710;400;60" dur="4s" repeatCount="indefinite" begin="2s" />
+  <animate attributeName="opacity" values="0;0.8;0" dur="4s" repeatCount="indefinite" begin="2s" />
+</circle>
 </svg>
