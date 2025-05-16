@@ -2,10 +2,18 @@
 <div align="center">
   <!-- Static fallback image for GitHub README -->
   <a href="https://louiseluli.github.io/louisesfer/" target="_blank">
-    <img src="./assets/svg/main-banner.svg" alt="Louise Ferreira - Click for animated version" width="800" />
+    <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/svg/main-banner.svg" alt="Louise Ferreira - Click for animated version" width="800" />
     <br>
     <sup><i>👆 Click for animated banner</i></sup>
   </a>
+</div>
+
+<!-- Profile Image -->
+<div align="center" style="margin: 20px 0;">
+  <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/images/profile-image.jpg"
+       alt="Louise Ferreira"
+       width="160"
+       style="border-radius:50%; border:3px solid #BB86FC;" />
 </div>
 
 <!-- Profile Image -->

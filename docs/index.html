@@ -18,11 +18,15 @@
       }
       canvas {
         display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
       }
       .content {
-        position: absolute;
+        position: relative;
         text-align: center;
-        z-index: 1;
+        z-index: 2;
         pointer-events: none;
       }
       h1 {
@@ -34,147 +38,153 @@
         color: transparent;
         margin-bottom: 10px;
         letter-spacing: 1px;
+        text-shadow: 0px 0px 10px rgba(187, 134, 252, 0.3);
       }
       p {
         color: #bb86fc;
         font-size: 18px;
         margin-top: 0;
         letter-spacing: 0.5px;
+        text-shadow: 0px 0px 8px rgba(187, 134, 252, 0.2);
       }
     </style>
   </head>
   <body>
+    <canvas id="animationCanvas"></canvas>
     <div class="content">
       <h1>LOUISE FERREIRA</h1>
       <p>AI/ML Specialist • Cybersecurity Professional • Chevening Scholar</p>
     </div>
-    <canvas id="animationCanvas"></canvas>
 
     <script>
-      const canvas = document.getElementById("animationCanvas");
-      const ctx = canvas.getContext("2d");
+      document.addEventListener("DOMContentLoaded", function () {
+        const canvas = document.getElementById("animationCanvas");
+        const ctx = canvas.getContext("2d");
 
-      // Set canvas dimensions
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-
-      // Resize handler
-      window.addEventListener("resize", () => {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-      });
-
-      // Particle class
-      class Particle {
-        constructor() {
-          this.x = Math.random() * canvas.width;
-          this.y = Math.random() * canvas.height;
-          this.size = Math.random() * 3 + 1;
-          this.speedX = Math.random() * 2 - 1;
-          this.speedY = Math.random() * 2 - 1;
-          this.color = this.getRandomColor();
+        // Set canvas dimensions
+        function resizeCanvas() {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
         }
 
-        getRandomColor() {
-          const colors = ["#BB86FC", "#E91E63", "#00BCD4", "#6200EA"];
-          return colors[Math.floor(Math.random() * colors.length)];
-        }
+        resizeCanvas();
 
-        update() {
-          this.x += this.speedX;
-          this.y += this.speedY;
+        // Resize handler
+        window.addEventListener("resize", resizeCanvas);
 
-          // Bounce off edges
-          if (this.x > canvas.width || this.x < 0) {
-            this.speedX = -this.speedX;
+        // Particle class
+        class Particle {
+          constructor() {
+            this.x = Math.random() * canvas.width;
+            this.y = Math.random() * canvas.height;
+            this.size = Math.random() * 3 + 1;
+            this.speedX = Math.random() * 2 - 1;
+            this.speedY = Math.random() * 2 - 1;
+            this.color = this.getRandomColor();
           }
-          if (this.y > canvas.height || this.y < 0) {
-            this.speedY = -this.speedY;
+
+          getRandomColor() {
+            const colors = ["#BB86FC", "#E91E63", "#00BCD4", "#6200EA"];
+            return colors[Math.floor(Math.random() * colors.length)];
           }
-        }
 
-        draw() {
-          ctx.fillStyle = this.color;
-          ctx.beginPath();
-          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-          ctx.fill();
-        }
-      }
+          update() {
+            this.x += this.speedX;
+            this.y += this.speedY;
 
-      // Create particle array
-      const particles = [];
-      for (let i = 0; i < 50; i++) {
-        particles.push(new Particle());
-      }
-
-      // Draw grid pattern
-      function drawGrid() {
-        ctx.strokeStyle = "#2A2D33";
-        ctx.lineWidth = 0.3;
-        ctx.globalAlpha = 0.2;
-
-        const gridSize = 30;
-
-        for (let x = 0; x <= canvas.width; x += gridSize) {
-          ctx.beginPath();
-          ctx.moveTo(x, 0);
-          ctx.lineTo(x, canvas.height);
-          ctx.stroke();
-        }
-
-        for (let y = 0; y <= canvas.height; y += gridSize) {
-          ctx.beginPath();
-          ctx.moveTo(0, y);
-          ctx.lineTo(canvas.width, y);
-          ctx.stroke();
-        }
-
-        ctx.globalAlpha = 1;
-      }
-
-      // Draw connections between close particles
-      function drawConnections() {
-        const maxDistance = 150;
-        ctx.strokeStyle = "#BB86FC";
-        ctx.lineWidth = 0.2;
-
-        for (let i = 0; i < particles.length; i++) {
-          for (let j = i + 1; j < particles.length; j++) {
-            const dx = particles[i].x - particles[j].x;
-            const dy = particles[i].y - particles[j].y;
-            const distance = Math.sqrt(dx * dx + dy * dy);
-
-            if (distance < maxDistance) {
-              // Draw line with opacity based on distance
-              ctx.globalAlpha = 1 - distance / maxDistance;
-              ctx.beginPath();
-              ctx.moveTo(particles[i].x, particles[i].y);
-              ctx.lineTo(particles[j].x, particles[j].y);
-              ctx.stroke();
+            // Bounce off edges
+            if (this.x > canvas.width || this.x < 0) {
+              this.speedX = -this.speedX;
+            }
+            if (this.y > canvas.height || this.y < 0) {
+              this.speedY = -this.speedY;
             }
           }
+
+          draw() {
+            ctx.fillStyle = this.color;
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+            ctx.fill();
+          }
         }
-        ctx.globalAlpha = 1;
-      }
 
-      // Animation loop
-      function animate() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        // Create particle array
+        const particles = [];
+        for (let i = 0; i < 50; i++) {
+          particles.push(new Particle());
+        }
 
-        // Draw background elements
-        drawGrid();
-        drawConnections();
+        // Draw grid pattern
+        function drawGrid() {
+          ctx.strokeStyle = "#2A2D33";
+          ctx.lineWidth = 0.3;
+          ctx.globalAlpha = 0.2;
 
-        // Update and draw particles
-        particles.forEach(particle => {
-          particle.update();
-          particle.draw();
-        });
+          const gridSize = 30;
 
-        requestAnimationFrame(animate);
-      }
+          for (let x = 0; x <= canvas.width; x += gridSize) {
+            ctx.beginPath();
+            ctx.moveTo(x, 0);
+            ctx.lineTo(x, canvas.height);
+            ctx.stroke();
+          }
 
-      animate();
+          for (let y = 0; y <= canvas.height; y += gridSize) {
+            ctx.beginPath();
+            ctx.moveTo(0, y);
+            ctx.lineTo(canvas.width, y);
+            ctx.stroke();
+          }
+
+          ctx.globalAlpha = 1;
+        }
+
+        // Draw connections between close particles
+        function drawConnections() {
+          const maxDistance = 150;
+          ctx.strokeStyle = "#BB86FC";
+          ctx.lineWidth = 0.2;
+
+          for (let i = 0; i < particles.length; i++) {
+            for (let j = i + 1; j < particles.length; j++) {
+              const dx = particles[i].x - particles[j].x;
+              const dy = particles[i].y - particles[j].y;
+              const distance = Math.sqrt(dx * dx + dy * dy);
+
+              if (distance < maxDistance) {
+                // Draw line with opacity based on distance
+                ctx.globalAlpha = 1 - distance / maxDistance;
+                ctx.beginPath();
+                ctx.moveTo(particles[i].x, particles[i].y);
+                ctx.lineTo(particles[j].x, particles[j].y);
+                ctx.stroke();
+              }
+            }
+          }
+          ctx.globalAlpha = 1;
+        }
+
+        // Animation loop
+        function animate() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          // Draw background elements
+          drawGrid();
+          drawConnections();
+
+          // Update and draw particles
+          particles.forEach(particle => {
+            particle.update();
+            particle.draw();
+          });
+
+          requestAnimationFrame(animate);
+        }
+
+        // Start the animation
+        animate();
+      });
     </script>
   </body>
 </html>

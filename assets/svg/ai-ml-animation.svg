@@ -86,16 +86,16 @@
     <circle cx="0" cy="0" r="10" fill="url(#nodeGradient1)" filter="url(#nodeGlow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="2s" repeatCount="indefinite" begin="0s"/>
     </circle>
-    <circle cx="40" cy="-20" r="8" fill="url(#nodeGradient2)">
+    <circle cx="40" cy="-20" r="8" fill="url(#nodeGradient2)" filter="url(#nodeGlow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.2s"/>
     </circle>
-    <circle cx="50" cy="25" r="7" fill="url(#nodeGradient3)">
+    <circle cx="50" cy="25" r="7" fill="url(#nodeGradient3)" filter="url(#nodeGlow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.4s"/>
     </circle>
-    <circle cx="-30" cy="30" r="6" fill="url(#nodeGradient4)">
+    <circle cx="-30" cy="30" r="6" fill="url(#nodeGradient4)" filter="url(#nodeGlow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.6s"/>
     </circle>
-    <circle cx="-25" cy="-25" r="5" fill="url(#nodeGradient5)">
+    <circle cx="-25" cy="-25" r="5" fill="url(#nodeGradient5)" filter="url(#nodeGlow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.8s"/>
     </circle>
 
