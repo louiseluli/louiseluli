@@ -1,6 +1,11 @@
 <!-- Header Banner -->
 <div align="center">
-  <img src="./assets/svg/main-banner.svg" alt="Louise Ferreira" width="800" />
+  <!-- Static fallback image for GitHub README -->
+  <a href="https://louiseluli.github.io/louisesfer/" target="_blank">
+    <img src="./assets/svg/main-banner.svg" alt="Louise Ferreira - Click for animated version" width="800" />
+    <br>
+    <sup><i>👆 Click for animated banner</i></sup>
+  </a>
 </div>
 
 <!-- Profile Image -->
