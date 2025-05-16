@@ -1,0 +1,47 @@
+<svg width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .container { fill: #0f0f0f; }
+      .text { fill: #ffffff; }
+      .accent { fill: #8a2be2; }
+      .banner-text { fill: #ff1493; }
+    }
+    
+    @media (prefers-color-scheme: light) {
+      .container { fill: #f5f5f5; }
+      .text { fill: #333333; }
+      .accent { fill: #8a2be2; }
+      .banner-text { fill: #9400d3; }
+    }
+    
+    .container {
+      rx: 10;
+      ry: 10;
+    }
+    
+    .text {
+      font-family: 'Courier New', monospace;
+      font-size: 16px;
+    }
+    
+    .banner-text {
+      font-family: 'Impact', sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    
+    .skull {
+      font-size: 24px;
+    }
+  </style>
+  
+  <rect width="100%" height="100%" class="container" />
+  
+  <text x="400" y="50" text-anchor="middle" class="banner-text">
+    LOUISE FERREIRA
+  </text>
+  
+  <text x="400" y="80" text-anchor="middle" class="text">
+    AI/ML Specialist • Cybersecurity Professional • Geek Enthusiast <tspan class="skull">💀</tspan>
+  </text>
+</svg>

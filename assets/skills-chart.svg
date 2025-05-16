@@ -1,0 +1,67 @@
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .skill-bar {
+      height: 20px;
+      rx: 10;
+      ry: 10;
+    }
+    
+    .skill-text {
+      font-family: monospace;
+      font-size: 12px;
+      fill: white;
+      dominant-baseline: middle;
+    }
+    
+    .skill-title {
+      font-family: 'Arial Black', sans-serif;
+      font-size: 18px;
+      fill: #8a2be2;
+      font-weight: bold;
+    }
+    
+    .skull-marker {
+      fill: white;
+      font-size: 14px;
+    }
+    
+    @keyframes fillBar {
+      from { width: 0; }
+      to { width: attr(data-width px); }
+    }
+    
+    .bar-fill {
+      animation: fillBar 1.5s ease-out forwards;
+    }
+  </style>
+  
+  <rect width="100%" height="100%" fill="#0f0f0f" rx="15" ry="15" />
+  
+  <text x="20" y="30" class="skill-title">AI/ML Skills</text>
+  
+  <!-- NLP -->
+  <text x="20" y="60" class="skill-text">NLP</text>
+  <rect x="120" y="50" width="300" height="20" fill="#333333" class="skill-bar" />
+  <rect x="120" y="50" width="270" height="20" fill="#8a2be2" class="skill-bar bar-fill" />
+  <text x="400" y="60" class="skull-marker">💀</text>
+  
+  <!-- Machine Learning -->
+  <text x="20" y="90" class="skill-text">Machine Learning</text>
+  <rect x="120" y="80" width="300" height="20" fill="#333333" class="skill-bar" />
+  <rect x="120" y="80" width="240" height="20" fill="#ff1493" class="skill-bar bar-fill" />
+  <text x="370" y="90" class="skull-marker">💀</text>
+  
+  <!-- Cybersecurity -->
+  <text x="20" y="120" class="skill-text">Cybersecurity</text>
+  <rect x="120" y="110" width="300" height="20" fill="#333333" class="skill-bar" />
+  <rect x="120" y="110" width="285" height="20" fill="#00ff00" class="skill-bar bar-fill" />
+  <text x="415" y="120" class="skull-marker">💀</text>
+  
+  <!-- Data Analysis -->
+  <text x="20" y="150" class="skill-text">Data Analysis</text>
+  <rect x="120" y="140" width="300" height="20" fill="#333333" class="skill-bar" />
+  <rect x="120" y="140" width="255" height="20" fill="#1e90ff" class="skill-bar bar-fill" />
+  <text x="385" y="150" class="skull-marker">💀</text>
+  
+  <text x="20" y="180" class="skill-text" fill="#aaaaaa">Hover over skills for details (interactive on GitHub)</text>
+</svg>
