@@ -1,15 +1,12 @@
 <div align="center">
   <img src="./assets/themes/theme-banner.svg" alt="Louise Ferreira - AI/ML Specialist" width="800" />
 </div>
-
 <div align="center">
   <img src="./assets/profile-image.jpg" alt="Louise Ferreira" width="200" style="border-radius:50%; border:3px solid #8a2be2;" />
 </div>
-
 <div align="center">
   <img src="./assets/complex-animation.svg" alt="AI/ML System Animation" width="800" />
 </div>
-
 <p align="center">
   <a href="mailto:silvaferreiralouise@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -17,15 +14,12 @@
   <a href="https://www.linkedin.com/in/louisesfer/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://scholar.google.com/citations">
+  <a href="https://scholar.google.com/citations"> {/* Ensure this is your correct Google Scholar link */}
     <img src="https://img.shields.io/badge/Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar" />
   </a>
 </p>
-
 ## 🧠 Research & Technical Focus
-
 As a Chevening Scholar pursuing an MSc in Artificial Intelligence, I specialize in:
-
 - **Natural Language Processing** — Advanced text analysis with transformers & bias mitigation
 - **Data Privacy & Protection** — Securing sensitive information in AI systems
 - **Cybersecurity Intelligence** — ML-driven threat detection & vulnerability assessment
@@ -36,9 +30,7 @@ My research bridges technical implementation with critical social impact, partic
 <div align="center">
   <img src="./assets/skills-chart.svg" alt="Skills Chart" width="600" />
 </div>
-
 ## 🛠️ Technical Arsenal
-
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
@@ -50,16 +42,12 @@ My research bridges technical implementation with critical social impact, partic
   <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
 </p>
-
 ## 📚 Education
-
-- **MSc in Artificial Intelligence and its Applications** — University of Essex _(Chevening Scholar)_
+- **MSc in Artificial Intelligence and its Applications** — University of Essex *(Chevening Scholar)*
 - **MA in Cultural Studies (Transatlantic Studies)** — Jagiellonian University
 - **BA in International Relations** — Federal University of Santa Catarina
 - **Certificate in Data Privacy and Technology** — Harvard Online
-
 ## 🎭 The Dark Aesthete: Beyond Code 💀
-
 <details>
   <summary><b>Click to explore my world outside technology</b></summary>
 
@@ -78,7 +66,7 @@ My research bridges technical implementation with critical social impact, partic
 
 My writing explores intersectionality, identity formation, and digital anthropology through a feminist lens.
 
-### 🌐 Languages & Cultural Experience
+### 🌐 Languages & Cultural Experience {/_ This incorporates the "Global Citizen" fix _/}
 
 - **Languages** — Portuguese (native), English (fluent), French, Polish, Spanish (working proficiency)
 - **Cultural Experience** — Professional work and academic study across Brazil, Poland, and the UK
@@ -92,9 +80,7 @@ I'm currently investigating:
 - **Fairness metrics for NLP models** — Developing refined evaluation frameworks
 - **Secure federated learning** — Privacy-preserving methods for distributed model training
 
-Seeking collaborations at the intersection of AI ethics, cybersecurity, and social impact.
-
----
+## Seeking collaborations at the intersection of AI ethics, cybersecurity, and social impact.
 
 <div align="center">
   <picture>
