@@ -19,14 +19,14 @@
   </rect>
   <text x="610" y="90" font-size="12" fill="#E91E63" text-anchor="end">92%</text>
 
-  <text x="50" y="130" font-size="15" fill="#E0E0E0" font-weight="600">Deep Learning</text>
+  <text x="50" y="130" font-size="15" fill="#E0E0E0" font-weight="600">Machine Learning</text>
   <rect x="280" y="115" width="350" height="20" rx="5" fill="#2A2D33" />
   <rect x="280" y="115" width="0" height="20" rx="5" fill="#BB86FC">
     <animate attributeName="width" from="0" to="300" dur="1.5s" fill="freeze" begin="0.4s"/>
   </rect>
   <text x="590" y="130" font-size="12" fill="#BB86FC" text-anchor="end">86%</text>
 
-  <text x="50" y="170" font-size="15" fill="#E0E0E0" font-weight="600">Machine Learning</text>
+  <text x="50" y="170" font-size="15" fill="#E0E0E0" font-weight="600">Deep Learning</text>
   <rect x="280" y="155" width="350" height="20" rx="5" fill="#2A2D33" />
   <rect x="280" y="155" width="0" height="20" rx="5" fill="#00BCD4">
     <animate attributeName="width" from="0" to="280" dur="1.5s" fill="freeze" begin="0.6s"/>

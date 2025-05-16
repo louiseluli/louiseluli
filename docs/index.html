@@ -3,443 +3,178 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Louise Ferreira - AI/ML Specialist</title>
+    <title>Louise Ferreira - Canvas Animation</title>
     <style>
       body {
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
         background-color: #1a1d23;
         font-family: "Segoe UI", Arial, sans-serif;
         overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height: 100vh;
       }
-
-      /* Main canvas container */
-      .banner-container {
-        position: relative;
-        width: 800px;
-        height: 150px;
-        margin-top: 50px;
+      canvas {
+        display: block;
       }
-
-      /* Animation canvas */
-      #animationCanvas {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-      }
-
-      /* Text overlay */
       .content {
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+        z-index: 1;
         pointer-events: none;
       }
-
-      /* Main title */
       h1 {
         font-size: 42px;
         font-weight: bold;
-        letter-spacing: 1px;
-        margin: 0;
         background: linear-gradient(90deg, #e91e63, #bb86fc);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        animation: pulse 3s infinite ease-in-out;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
       }
-
-      /* Subtitle */
-      .subtitle {
+      p {
         color: #bb86fc;
-        font-size: 16px;
-        margin-top: 10px;
+        font-size: 18px;
+        margin-top: 0;
         letter-spacing: 0.5px;
-      }
-
-      /* Brain icons */
-      .brain-icon {
-        position: absolute;
-        width: 24px;
-        height: 24px;
-        fill: #e91e63;
-        opacity: 0.7;
-        z-index: 3;
-      }
-
-      .brain-left {
-        left: 30px;
-        top: 60px;
-        animation: float 4s infinite ease-in-out;
-      }
-
-      .brain-right {
-        right: 30px;
-        top: 60px;
-        animation: float 4s infinite ease-in-out reverse;
-      }
-
-      /* Profile section */
-      .profile-section {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 800px;
-      }
-
-      .profile-image {
-        width: 160px;
-        height: 160px;
-        border-radius: 50%;
-        border: 3px solid #bb86fc;
-        margin-bottom: 20px;
-      }
-
-      .profile-text {
-        color: #e0e0e0;
-        text-align: center;
-        font-size: 16px;
-        line-height: 1.6;
-      }
-
-      .profile-text h2 {
-        color: #bb86fc;
-        margin-bottom: 15px;
-      }
-
-      .profile-text ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
-
-      .profile-text li {
-        margin-bottom: 8px;
-      }
-
-      .profile-text strong {
-        color: #bb86fc;
-      }
-
-      /* Social links */
-      .social-links {
-        display: flex;
-        gap: 10px;
-        margin-top: 20px;
-      }
-
-      .social-link {
-        text-decoration: none;
-        padding: 8px 16px;
-        background-color: #30363d;
-        color: white;
-        border-radius: 4px;
-        font-size: 14px;
-        transition: background-color 0.3s;
-        display: flex;
-        align-items: center;
-        gap: 5px;
-      }
-
-      .social-link:hover {
-        background-color: #444c56;
-      }
-
-      .gmail-link {
-        background-color: #d14836;
-      }
-
-      .linkedin-link {
-        background-color: #0077b5;
-      }
-
-      /* Animations */
-      @keyframes pulse {
-        0%,
-        100% {
-          opacity: 0.85;
-        }
-        50% {
-          opacity: 1;
-        }
-      }
-
-      @keyframes float {
-        0%,
-        100% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(-8px);
-        }
-      }
-
-      /* Source code link */
-      .view-source {
-        position: fixed;
-        bottom: 20px;
-        left: 20px;
-        color: #4d5566;
-        font-size: 12px;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        z-index: 10;
-      }
-
-      .view-source:hover {
-        color: #bb86fc;
-      }
-
-      /* GitHub icon */
-      .github-icon {
-        width: 16px;
-        height: 16px;
       }
     </style>
   </head>
   <body>
-    <!-- Main banner with canvas animation -->
-    <div class="banner-container">
-      <canvas id="animationCanvas"></canvas>
-
-      <!-- Text overlay -->
-      <div class="content">
-        <h1>LOUISE FERREIRA</h1>
-        <div class="subtitle">
-          AI/ML Specialist • Cybersecurity Professional • Chevening Scholar
-        </div>
-      </div>
-
-      <!-- Brain icons -->
-      <svg
-        class="brain-icon brain-left"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M20,10 C20,5 15,0 10,0 C5,0 0,5 0,10 C0,12 1,14 2,15 L2,18 C2,19 3,20 4,20 L6,20 C7,20 8,19 8,18 L8,16 L12,16 L12,18 C12,19 13,20 14,20 L16,20 C17,20 18,19 18,18 L18,15 C19,14 20,12 20,10 Z M6,10 C5,10 4,9 4,8 C4,7 5,6 6,6 C7,6 8,7 8,8 C8,9 7,10 6,10 Z M12,14 L8,14 C8,13 7,12 6,12 L6,12 C4,12 3,13 2,14 C2,12 4,10 6,11 C8,12 12,12 14,11 C16,10 18,12 18,14 C17,13 16,12 14,12 L14,12 C13,12 12,13 12,14 Z M14,10 C13,10 12,9 12,8 C12,7 13,6 14,6 C15,6 16,7 16,8 C16,9 15,10 14,10 Z"
-        ></path>
-      </svg>
-
-      <svg
-        class="brain-icon brain-right"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M20,10 C20,5 15,0 10,0 C5,0 0,5 0,10 C0,12 1,14 2,15 L2,18 C2,19 3,20 4,20 L6,20 C7,20 8,19 8,18 L8,16 L12,16 L12,18 C12,19 13,20 14,20 L16,20 C17,20 18,19 18,18 L18,15 C19,14 20,12 20,10 Z M6,10 C5,10 4,9 4,8 C4,7 5,6 6,6 C7,6 8,7 8,8 C8,9 7,10 6,10 Z M12,14 L8,14 C8,13 7,12 6,12 L6,12 C4,12 3,13 2,14 C2,12 4,10 6,11 C8,12 12,12 14,11 C16,10 18,12 18,14 C17,13 16,12 14,12 L14,12 C13,12 12,13 12,14 Z M14,10 C13,10 12,9 12,8 C12,7 13,6 14,6 C15,6 16,7 16,8 C16,9 15,10 14,10 Z"
-        ></path>
-      </svg>
+    <div class="content">
+      <h1>LOUISE FERREIRA</h1>
+      <p>AI/ML Specialist • Cybersecurity Professional • Chevening Scholar</p>
     </div>
+    <canvas id="animationCanvas"></canvas>
 
-    <!-- Link to view source code -->
-    <a href="https://github.com/louiseluli/louisesfer" class="view-source">
-      <svg
-        class="github-icon"
-        viewBox="0 0 16 16"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill="currentColor"
-          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
-        ></path>
-      </svg>
-      View Source
-    </a>
-
-    <!-- Canvas animation script -->
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const canvas = document.getElementById("animationCanvas");
-        const ctx = canvas.getContext("2d");
+      const canvas = document.getElementById("animationCanvas");
+      const ctx = canvas.getContext("2d");
 
-        // Set canvas dimensions
-        function resizeCanvas() {
-          const container = canvas.parentElement;
-          canvas.width = container.offsetWidth;
-          canvas.height = container.offsetHeight;
-        }
+      // Set canvas dimensions
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
 
-        resizeCanvas();
-        window.addEventListener("resize", resizeCanvas);
-
-        // Particle class
-        class Particle {
-          constructor() {
-            this.reset();
-            // Start particles at random positions
-            this.x = Math.random() * canvas.width;
-            this.y = Math.random() * canvas.height;
-          }
-
-          reset() {
-            // Initialize at edges
-            const edge = Math.floor(Math.random() * 4); // 0: top, 1: right, 2: bottom, 3: left
-
-            if (edge === 0) {
-              // top
-              this.x = Math.random() * canvas.width;
-              this.y = 0;
-            } else if (edge === 1) {
-              // right
-              this.x = canvas.width;
-              this.y = Math.random() * canvas.height;
-            } else if (edge === 2) {
-              // bottom
-              this.x = Math.random() * canvas.width;
-              this.y = canvas.height;
-            } else {
-              // left
-              this.x = 0;
-              this.y = Math.random() * canvas.height;
-            }
-
-            // Velocity toward center with some randomness
-            const centerX = canvas.width / 2;
-            const centerY = canvas.height / 2;
-
-            const angle = Math.atan2(centerY - this.y, centerX - this.x);
-            const speed = Math.random() * 0.5 + 0.2;
-
-            this.vx = Math.cos(angle) * speed;
-            this.vy = Math.sin(angle) * speed;
-
-            this.size = Math.random() * 2 + 1;
-            this.color = this.getRandomColor();
-            this.life = Math.random() * 200 + 50; // Lifespan of particle
-            this.maxLife = this.life;
-          }
-
-          getRandomColor() {
-            const colors = ["#BB86FC", "#E91E63", "#00BCD4", "#6200EA"];
-            return colors[Math.floor(Math.random() * colors.length)];
-          }
-
-          update() {
-            this.x += this.vx;
-            this.y += this.vy;
-            this.life--;
-
-            // Reset particle when it dies or goes out of bounds
-            if (
-              this.life <= 0 ||
-              this.x < -10 ||
-              this.x > canvas.width + 10 ||
-              this.y < -10 ||
-              this.y > canvas.height + 10
-            ) {
-              this.reset();
-            }
-          }
-
-          draw() {
-            // Set opacity based on life
-            const alpha = this.life / this.maxLife;
-            ctx.globalAlpha = alpha;
-            ctx.fillStyle = this.color;
-            ctx.beginPath();
-            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-            ctx.fill();
-            ctx.globalAlpha = 1;
-          }
-        }
-
-        // Create particles
-        const particles = [];
-        const particleCount = 40;
-
-        for (let i = 0; i < particleCount; i++) {
-          particles.push(new Particle());
-        }
-
-        // Draw grid pattern
-        function drawGrid() {
-          ctx.strokeStyle = "#2A2D33";
-          ctx.lineWidth = 0.3;
-          ctx.globalAlpha = 0.2;
-
-          const gridSize = 20;
-
-          for (let x = 0; x <= canvas.width; x += gridSize) {
-            ctx.beginPath();
-            ctx.moveTo(x, 0);
-            ctx.lineTo(x, canvas.height);
-            ctx.stroke();
-          }
-
-          for (let y = 0; y <= canvas.height; y += gridSize) {
-            ctx.beginPath();
-            ctx.moveTo(0, y);
-            ctx.lineTo(canvas.width, y);
-            ctx.stroke();
-          }
-
-          ctx.globalAlpha = 1;
-        }
-
-        // Draw connections between particles
-        function drawConnections() {
-          const maxDistance = 100;
-          ctx.strokeStyle = "#BB86FC";
-          ctx.lineWidth = 0.2;
-
-          for (let i = 0; i < particles.length; i++) {
-            for (let j = i + 1; j < particles.length; j++) {
-              const dx = particles[i].x - particles[j].x;
-              const dy = particles[i].y - particles[j].y;
-              const distance = Math.sqrt(dx * dx + dy * dy);
-
-              if (distance < maxDistance) {
-                ctx.globalAlpha = 0.2 * (1 - distance / maxDistance);
-                ctx.beginPath();
-                ctx.moveTo(particles[i].x, particles[i].y);
-                ctx.lineTo(particles[j].x, particles[j].y);
-                ctx.stroke();
-              }
-            }
-          }
-          ctx.globalAlpha = 1;
-        }
-
-        // Animation loop
-        function animate() {
-          ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-          // Draw background elements
-          drawGrid();
-
-          // Update and draw particles
-          particles.forEach(particle => {
-            particle.update();
-            particle.draw();
-          });
-
-          // Draw connections between particles
-          drawConnections();
-
-          requestAnimationFrame(animate);
-        }
-
-        // Start animation
-        animate();
+      // Resize handler
+      window.addEventListener("resize", () => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
       });
+
+      // Particle class
+      class Particle {
+        constructor() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.size = Math.random() * 3 + 1;
+          this.speedX = Math.random() * 2 - 1;
+          this.speedY = Math.random() * 2 - 1;
+          this.color = this.getRandomColor();
+        }
+
+        getRandomColor() {
+          const colors = ["#BB86FC", "#E91E63", "#00BCD4", "#6200EA"];
+          return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        update() {
+          this.x += this.speedX;
+          this.y += this.speedY;
+
+          // Bounce off edges
+          if (this.x > canvas.width || this.x < 0) {
+            this.speedX = -this.speedX;
+          }
+          if (this.y > canvas.height || this.y < 0) {
+            this.speedY = -this.speedY;
+          }
+        }
+
+        draw() {
+          ctx.fillStyle = this.color;
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+
+      // Create particle array
+      const particles = [];
+      for (let i = 0; i < 50; i++) {
+        particles.push(new Particle());
+      }
+
+      // Draw grid pattern
+      function drawGrid() {
+        ctx.strokeStyle = "#2A2D33";
+        ctx.lineWidth = 0.3;
+        ctx.globalAlpha = 0.2;
+
+        const gridSize = 30;
+
+        for (let x = 0; x <= canvas.width; x += gridSize) {
+          ctx.beginPath();
+          ctx.moveTo(x, 0);
+          ctx.lineTo(x, canvas.height);
+          ctx.stroke();
+        }
+
+        for (let y = 0; y <= canvas.height; y += gridSize) {
+          ctx.beginPath();
+          ctx.moveTo(0, y);
+          ctx.lineTo(canvas.width, y);
+          ctx.stroke();
+        }
+
+        ctx.globalAlpha = 1;
+      }
+
+      // Draw connections between close particles
+      function drawConnections() {
+        const maxDistance = 150;
+        ctx.strokeStyle = "#BB86FC";
+        ctx.lineWidth = 0.2;
+
+        for (let i = 0; i < particles.length; i++) {
+          for (let j = i + 1; j < particles.length; j++) {
+            const dx = particles[i].x - particles[j].x;
+            const dy = particles[i].y - particles[j].y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < maxDistance) {
+              // Draw line with opacity based on distance
+              ctx.globalAlpha = 1 - distance / maxDistance;
+              ctx.beginPath();
+              ctx.moveTo(particles[i].x, particles[i].y);
+              ctx.lineTo(particles[j].x, particles[j].y);
+              ctx.stroke();
+            }
+          }
+        }
+        ctx.globalAlpha = 1;
+      }
+
+      // Animation loop
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Draw background elements
+        drawGrid();
+        drawConnections();
+
+        // Update and draw particles
+        particles.forEach(particle => {
+          particle.update();
+          particle.draw();
+        });
+
+        requestAnimationFrame(animate);
+      }
+
+      animate();
     </script>
   </body>
 </html>
