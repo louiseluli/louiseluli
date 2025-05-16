@@ -1,6 +1,6 @@
 <svg width="800" height="220" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', monospace;">
   <rect width="100%" height="100%" fill="#1A1D23"/>
-  
+
   <!-- Gradient definitions -->
   <defs>
     <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -14,74 +14,74 @@
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
+    
+    <!-- Node gradients for neural network -->
+    <radialGradient id="nodeGradient1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#E91E63" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#E91E63" stop-opacity="0.6"/>
+    </radialGradient>
+    <radialGradient id="nodeGradient2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#BB86FC" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#BB86FC" stop-opacity="0.6"/>
+    </radialGradient>
+    <radialGradient id="nodeGradient3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#00BCD4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00BCD4" stop-opacity="0.6"/>
+    </radialGradient>
+    <radialGradient id="nodeGradient4" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#00E676" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00E676" stop-opacity="0.6"/>
+    </radialGradient>
+    <radialGradient id="nodeGradient5" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFCB6B" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFCB6B" stop-opacity="0.6"/>
+    </radialGradient>
+    
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  
+
   <!-- Title with animated gradient -->
   <text x="400" y="40" font-size="28" fill="url(#titleGradient)" text-anchor="middle" font-weight="bold" filter="url(#glow)">
     AI & ML KNOWLEDGE CORE
   </text>
-  
+
   <!-- Terminal-like interface -->
   <rect x="50" y="70" width="700" height="130" rx="8" ry="8" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
-  
+
   <!-- Terminal dots -->
   <circle cx="70" cy="85" r="6" fill="#FF5F57"/> 
   <circle cx="90" cy="85" r="6" fill="#FEBC2E"/> 
   <circle cx="110" cy="85" r="6" fill="#28C840"/>
-  
+
   <!-- Terminal text with typewriter-like animation -->
   <text x="70" y="120" font-size="14" fill="#00E676" opacity="0">
     <tspan x="70" dy="0">&gt; Initializing neural framework...</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze"/>
   </text>
-  
+
   <text x="70" y="140" font-size="14" fill="#00E676" opacity="0">
     <tspan x="70" dy="0">&gt; Loading transformer models: <tspan fill="#82AAFF">COMPLETE</tspan></tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1s" fill="freeze"/>
   </text>
-  
+
   <text x="70" y="160" font-size="14" fill="#00E676" opacity="0">
     <tspan x="70" dy="0">&gt; Fairness metrics calibration: <tspan fill="#FFCB6B">ACTIVE</tspan></tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2s" fill="freeze"/>
   </text>
-  
+
   <text x="70" y="180" font-size="14" fill="#C3E88D" opacity="0">
     <tspan x="70" dy="0">&gt; System ready. Welcome to ML research.</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3s" fill="freeze"/>
   </text>
-  
+
   <!-- Neural network visualization -->
   <g transform="translate(550, 100)">
-    <defs>
-      <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
-        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-      <radialGradient id="nodeGradient1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-        <stop offset="0%" stop-color="#E91E63" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#E91E63" stop-opacity="0.6"/>
-      </radialGradient>
-      <radialGradient id="nodeGradient2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-        <stop offset="0%" stop-color="#BB86FC" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#BB86FC" stop-opacity="0.6"/>
-      </radialGradient>
-      <radialGradient id="nodeGradient3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-        <stop offset="0%" stop-color="#00BCD4" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#00BCD4" stop-opacity="0.6"/>
-      </radialGradient>
-      <radialGradient id="nodeGradient4" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-        <stop offset="0%" stop-color="#00E676" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#00E676" stop-opacity="0.6"/>
-      </radialGradient>
-      <radialGradient id="nodeGradient5" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-        <stop offset="0%" stop-color="#FFCB6B" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#FFCB6B" stop-opacity="0.6"/>
-      </radialGradient>
-    </defs>
-
     <!-- Neural network nodes -->
     <circle cx="0" cy="0" r="10" fill="url(#nodeGradient1)" filter="url(#nodeGlow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="2s" repeatCount="indefinite" begin="0s"/>
@@ -98,7 +98,7 @@
     <circle cx="-25" cy="-25" r="5" fill="url(#nodeGradient5)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.8s"/>
     </circle>
-    
+
     <!-- Neural network connections with animated pulses -->
     <line x1="0" y1="0" x2="40" y2="-20" stroke="#BB86FC" stroke-width="1" opacity="0.5">
       <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
@@ -112,7 +112,7 @@
     <line x1="0" y1="0" x2="-25" y2="-25" stroke="#FFCB6B" stroke-width="1" opacity="0.5">
       <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite" begin="1.5s"/>
     </line>
-    
+
     <!-- Animated data pulses -->
     <circle cx="0" cy="0" r="2" fill="#E91E63">
       <animate attributeName="cx" values="0;40" dur="1.5s" repeatCount="indefinite" begin="0s"/>

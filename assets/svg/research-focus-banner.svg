@@ -1,7 +1,6 @@
-
 <svg width="800" height="100" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Segoe UI', Arial, sans-serif;">
   <rect width="100%" height="100%" fill="#23272E" />
-  
+
   <!-- Gradient definitions -->
   <defs>
     <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -16,19 +15,19 @@
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
-  
+
   <!-- Background pattern -->
   <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
     <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#2A2D33" stroke-width="0.5"/>
   </pattern>
   <rect width="100%" height="100%" fill="url(#grid)" opacity="0.3"/>
-  
+
   <!-- Main text with animation and glow effect -->
   <text x="400" y="55" font-size="22" fill="url(#textGradient)" text-anchor="middle" font-weight="bold" letter-spacing="0.5" filter="url(#glow)">
     KEY RESEARCH FOCUS: AI ETHICS, FAIRNESS &amp; ALGORITHMIC JUSTICE
     <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite" />
   </text>
-  
+
   <!-- Decorative elements -->
   <circle cx="150" cy="50" r="3" fill="#E91E63" opacity="0.7">
     <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
@@ -36,7 +35,7 @@
   <circle cx="650" cy="50" r="3" fill="#E91E63" opacity="0.7">
     <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite" begin="1.5s"/>
   </circle>
-  
+
   <!-- Machine learning binary pattern -->
   <text x="100" y="85" font-size="10" fill="#30363D" font-family="monospace">10101110 01001101 10100101</text>
   <text x="500" y="20" font-size="10" fill="#30363D" font-family="monospace">01110001 10010110 11010001</text>
