@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/themes/theme-banner.svg">
@@ -115,3 +116,6 @@ Looking to collaborate on projects that combine AI innovation with meaningful so
     <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
+=======
+
+>>>>>>> 081676d7204c5efcdc4199abbf06a257e6db8873
