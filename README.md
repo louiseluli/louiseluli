@@ -33,26 +33,80 @@
 
 ### Research Focus
 
-My research bridges algorithmic fairness with practical implementation, focusing on:
-
-- Fairness assessment frameworks for transformer-based NLP systems
-- Bias detection and mitigation in content classification and recommendation
-- Privacy-preserving machine learning with intersectional fairness guarantees
-- Autoethnographically-informed approaches to algorithmic justice and representation
-
-<img src="./assets/svg/research-focus-banner.svg"
-     alt="Research Focus: AI Ethics & Fairness"
-     width="800" />
+<div align="center">
+  <h2>Research Areas</h2>
+  <table>
+    <tr>
+      <td width="33%" align="center" valign="top">
+        <img src="https://img.icons8.com/color/48/000000/brain--v2.png"/>
+        <h3 style="color: #BB86FC;">Fairness-Aware NLP</h3>
+        <p>Developing transformer-based systems with built-in bias detection and mitigation.</p>
+      </td>
+      <td width="33%" align="center" valign="top">
+        <img src="https://img.icons8.com/color/48/000000/diversity.png"/>
+        <h3 style="color: #00BCD4;">Intersectional AI Ethics</h3>
+        <p>Creating models that account for overlapping dimensions of identity in data representation.</p>
+      </td>
+      <td width="33%" align="center" valign="top">
+        <img src="https://img.icons8.com/color/48/000000/security-shield.png"/>
+        <h3 style="color: #E91E63;">Privacy-Preserving ML</h3>
+        <p>Developing techniques that maintain data privacy while ensuring algorithmic fairness.</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Education & Recognition
 
-- **MSc Artificial Intelligence and its Applications**, University of Essex (Chevening Scholar)
-- **MA Cultural Studies**, Jagiellonian University
-- **BA International Relations**, Federal University of Santa Catarina
+<h3 align="center">Academic Journey</h3>
 
-### Publications & Projects
+<div align="center">
+  <table>
+    <tr>
+      <td align="right" width="45%"><b>2024-2025</b></td>
+      <td width="10%">➤</td>
+      <td align="left" width="45%"><b>MSc in AI and its Applications</b><br>University of Essex<br><i>Chevening Scholar</i></td>
+    </tr>
+    <tr><td colspan="3"><div align="center">⋮</div></td></tr>
+    <tr>
+      <td align="right" width="45%"><b>2014-2016</b></td>
+      <td width="10%">➤</td>
+      <td align="left" width="45%"><b>MA in Cultural Studies</b><br>Jagiellonian University<br><i>Transatlantic Studies</i></td>
+    </tr>
+    <tr><td colspan="3"><div align="center">⋮</div></td></tr>
+    <tr>
+      <td align="right" width="45%"><b>2009-2013</b></td>
+      <td width="10%">➤</td>
+      <td align="left" width="45%"><b>BA in International Relations</b><br>Federal University of Santa Catarina</td>
+    </tr>
+  </table>
+</div>
 
-- Coming soon...
+<h2 align="center">Research & Publications</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="30%" align="center">
+        <img src="https://img.icons8.com/color/48/000000/research--v2.png"/>
+        <h3>Ongoing Research</h3>
+      </td>
+      <td width="70%" align="left">
+        <p><b>Fairness Metrics for Transformer-Based Content Classification</b><br/>
+        Developing evaluation frameworks for bias detection in content tagging systems<br/>
+        <i>Expected: Fall 2025</i></p>
+        
+        <p><b>Intersectional Approaches to AI Safety</b><br/>
+        A framework for evaluating safety systems across multiple dimensions of identity<br/>
+        <i>Expected: Winter 2025</i></p>
+        
+        <p><b>Autoethnographic Methods in AI Development</b><br/>
+        Structured approaches to incorporate lived experience in model development<br/>
+        <i>Expected: Spring 2026</i></p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Technical Proficiency
 
