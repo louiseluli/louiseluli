@@ -86,91 +86,88 @@
 <table>
 <tr>
   <td>
+<!-- Intersectional Approaches to AI Safety -->
+<h4>Intersectional Approaches to AI Safety</h4>
+<p>
+  A framework for evaluating safety systems across multiple dimensions of identity<br>
+  <em>Expected: Winter 2025</em>
+</p>
 
-    <!-- Intersectional Approaches to AI Safety -->
-    <h4>Intersectional Approaches to AI Safety</h4>
-    <p>
-      A framework for evaluating safety systems across multiple dimensions of identity<br>
-      <em>Expected: Winter 2025</em>
-    </p>
-
-    <!-- Final Dissertation (2025) -->
-    <h4>Final Dissertation (2025)</h4>
+<!-- Final Dissertation (2025) -->
+<h4>Final Dissertation (2025)</h4>
+<ul>
+  <li><strong>Topic:</strong> Detecting and Mitigating Algorithmic Bias in ML Models Categorizing Adult Content Metadata</li>
+  <li><strong>Focus:</strong> Black women and intersectional identities (e.g., BBW, Trans, Interracial)</li>
+  <li><strong>Dataset:</strong> 134,350 videos, categorized (asian, latina, interracial, ebony, bbw, brazilian, indian, arab, transgender)</li>
+  <li><strong>Metadata Fields:</strong> Tags, views, ratings, duration, category labels</li>
+  <li><strong>Techniques &amp; Models:</strong>
     <ul>
-      <li><strong>Topic:</strong> Detecting and Mitigating Algorithmic Bias in ML Models Categorizing Adult Content Metadata</li>
-      <li><strong>Focus:</strong> Black women and intersectional identities (e.g., BBW, Trans, Interracial)</li>
-      <li><strong>Dataset:</strong> 134,350 videos, categorized (asian, latina, interracial, ebony, bbw, brazilian, indian, arab, transgender)</li>
-      <li><strong>Metadata Fields:</strong> Tags, views, ratings, duration, category labels</li>
-      <li><strong>Techniques &amp; Models:</strong>
-        <ul>
-          <li>Descriptive statistics on metadata and tag frequency</li>
-          <li>Bias and fairness analysis across groups</li>
-          <li>Fairness metrics (e.g., Equal Opportunity, Demographic Parity)</li>
-          <li>Text classification, unsupervised clustering, counterfactual data augmentation</li>
-        </ul>
-      </li>
+      <li>Descriptive statistics on metadata and tag frequency</li>
+      <li>Bias and fairness analysis across groups</li>
+      <li>Fairness metrics (e.g., Equal Opportunity, Demographic Parity)</li>
+      <li>Text classification, unsupervised clustering, counterfactual data augmentation</li>
     </ul>
+  </li>
+</ul>
 
-    <!-- Text Analytics (CE807-7-SP) -->
-    <h4>Text Analytics (CE807-7-SP)</h4>
+<!-- Text Analytics -->
+<h4>Text Analytics</h4>
+<ul>
+  <li><strong>Project:</strong> Sentiment Analysis on Amazon Reviews (NLP)</li>
+  <li><strong>Models Used:</strong>
     <ul>
-      <li><strong>Project:</strong> Sentiment Analysis on Amazon Reviews (NLP)</li>
-      <li><strong>Models Used:</strong>
-        <ul>
-          <li>VADER – rule-based sentiment analysis</li>
-          <li>DistilBERT – transformer-based classification</li>
-          <li>RoBERTa – advanced transformer for nuanced detection</li>
-          <li>Logistic Regression – baseline supervised model</li>
-        </ul>
-      </li>
-      <li><strong>Tasks:</strong>
-        <ul>
-          <li>Text preprocessing (tokenization, lemmatization, stopword removal)</li>
-          <li>Evaluation on unbalanced data (precision, recall, F1, confusion matrix)</li>
-          <li>Comparison of unsupervised, supervised, and transformer-based models</li>
-        </ul>
-      </li>
+      <li>VADER – rule-based sentiment analysis</li>
+      <li>DistilBERT – transformer-based classification</li>
+      <li>RoBERTa – advanced transformer for nuanced detection</li>
+      <li>Logistic Regression – baseline supervised model</li>
     </ul>
-
-    <!-- Information Retrieval (CE706-7-AU) -->
-    <h4>Information Retrieval (CE706-7-AU)</h4>
+  </li>
+  <li><strong>Tasks:</strong>
     <ul>
-      <li><strong>Project:</strong> Analyzing Denzel Washington’s Career</li>
-      <li><strong>Tools Used:</strong> Elasticsearch, Kibana</li>
-      <li><strong>Methods:</strong>
-        <ul>
-          <li>Indexing & querying IMDb data</li>
-          <li>Search relevance tuning (boosting by tags or roles)</li>
-          <li>Visual dashboards of genre, co-stars & critical reception</li>
-        </ul>
-      </li>
+      <li>Text preprocessing (tokenization, lemmatization, stopword removal)</li>
+      <li>Evaluation on unbalanced data (precision, recall, F1, confusion matrix)</li>
+      <li>Comparison of unsupervised, supervised, and transformer-based models</li>
     </ul>
+  </li>
+</ul>
 
-    <!-- Programming (CE156-7-AU) -->
-    <h4>Programming (CE156-7-AU)</h4>
+<!-- Information Retrieval -->
+<h4>Information Retrieval </h4>
+<ul>
+  <li><strong>Project:</strong> Analyzing Denzel Washington's Career</li>
+  <li><strong>Tools Used:</strong> Elasticsearch, Kibana</li>
+  <li><strong>Methods:</strong>
     <ul>
-      <li><strong>Language:</strong> Python</li>
-      <li><strong>Topics:</strong> Basic syntax, loops, functions, data structures, OOP</li>
+      <li>Indexing & querying IMDb data</li>
+      <li>Search relevance tuning (boosting by tags or roles)</li>
+      <li>Visual dashboards of genre, co-stars & critical reception</li>
     </ul>
+  </li>
+</ul>
 
-    <!-- AI & ML with Applications (MA336-7-SP) -->
-    <h4>AI &amp; Machine Learning with Applications (MA336-7-SP)</h4>
+<!-- Programming -->
+<h4>Programming </h4>
+<ul>
+  <li><strong>Language:</strong> Python</li>
+  <li><strong>Topics:</strong> Basic syntax, loops, functions, data structures, OOP</li>
+</ul>
+
+<!-- AI & ML with Applications  -->
+<h4>AI &amp; Machine Learning with Applications</h4>
+<ul>
+  <li><strong>Models &amp; Topics:</strong>
     <ul>
-      <li><strong>Models &amp; Topics:</strong>
-        <ul>
-          <li>K-Means Clustering</li>
-          <li>SVD (latent factor modelling)</li>
-          <li>ANNs for classification & regression</li>
-          <li>Hybrid recommender systems</li>
-          <li>Evolutionary feature selection</li>
-          <li>Imbalanced data metrics (AUC, Precision@K, NDCG)</li>
-        </ul>
-      </li>
+      <li>K-Means Clustering</li>
+      <li>SVD (latent factor modelling)</li>
+      <li>ANNs for classification & regression</li>
+      <li>Hybrid recommender systems</li>
+      <li>Evolutionary feature selection</li>
+      <li>Imbalanced data metrics (AUC, Precision@K, NDCG)</li>
     </ul>
-
+  </li>
+</ul>
   </td>
 </tr>
-
 </table>
 
 ### Technical Proficiency
