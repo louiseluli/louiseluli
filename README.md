@@ -45,7 +45,3 @@
      width="700" />
 
 _Full profile and detailed work coming soon…_
-
-<!-- GitHub Contribution Snake -->
-
-![GitHub Snake Animation](https://github.com/louiseluli/louisesfer/blob/output/github-contribution-grid-snake.svg)
