@@ -31,32 +31,31 @@
 - **Technical Stack**: Python, PyTorch, HuggingFace, Scikit-learn, Pandas, Fairlearn, AIF360
 - **Cybersecurity**: Data Loss Prevention (DLP), privacy engineering, open-source intelligence (OSINT)
 
-### Research Focus
-
 <div align="center">
-  <h2>Research Areas</h2>
-  <table>
-    <tr>
-      <td width="33%" align="center" valign="top">
-        <img src="https://img.icons8.com/color/48/000000/brain--v2.png"/>
-        <h3 style="color: #BB86FC;">Fairness-Aware NLP</h3>
-        <p>Developing transformer-based systems with built-in bias detection and mitigation.</p>
-      </td>
-      <td width="33%" align="center" valign="top">
-        <img src="https://img.icons8.com/color/48/000000/diversity.png"/>
-        <h3 style="color: #00BCD4;">Intersectional AI Ethics</h3>
-        <p>Creating models that account for overlapping dimensions of identity in data representation.</p>
-      </td>
-      <td width="33%" align="center" valign="top">
-        <img src="https://img.icons8.com/color/48/000000/security-shield.png"/>
-        <h3 style="color: #E91E63;">Privacy-Preserving ML</h3>
-        <p>Developing techniques that maintain data privacy while ensuring algorithmic fairness.</p>
-      </td>
-    </tr>
-  </table>
+  <img src="./assets/svg/research-focus-banner.svg" alt="Research Focus: AI Ethics & Fairness" width="800" />
 </div>
 
-### Education & Recognition
+<h2 align="center">Research Areas</h2>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/icons/brain.png" width="60" alt="NLP Icon"/>
+      <h3>Fairness-Aware NLP</h3>
+      <p>Developing transformer-based systems with built-in bias detection and mitigation.</p>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/icons/diversity.png" width="60" alt="Diversity Icon"/>
+      <h3>Intersectional AI Ethics</h3>
+      <p>Creating models that account for overlapping dimensions of identity in data representation.</p>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/icons/privacy.png" width="60" alt="Privacy Icon"/>
+      <h3>Privacy-Preserving ML</h3>
+      <p>Developing techniques that maintain data privacy while ensuring algorithmic fairness.</p>
+    </td>
+  </tr>
+</table>
 
 <h3 align="center">Academic Journey</h3>
 
@@ -84,29 +83,27 @@
 
 <h2 align="center">Research & Publications</h2>
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="30%" align="center">
-        <img src="https://img.icons8.com/color/48/000000/research--v2.png"/>
-        <h3>Ongoing Research</h3>
-      </td>
-      <td width="70%" align="left">
-        <p><b>Fairness Metrics for Transformer-Based Content Classification</b><br/>
-        Developing evaluation frameworks for bias detection in content tagging systems<br/>
-        <i>Expected: Fall 2025</i></p>
-        
-        <p><b>Intersectional Approaches to AI Safety</b><br/>
-        A framework for evaluating safety systems across multiple dimensions of identity<br/>
-        <i>Expected: Winter 2025</i></p>
-        
-        <p><b>Autoethnographic Methods in AI Development</b><br/>
-        Structured approaches to incorporate lived experience in model development<br/>
-        <i>Expected: Spring 2026</i></p>
-      </td>
-    </tr>
-  </table>
-</div>
+<table>
+  <tr>
+    <td width="30%" align="center">
+      <div style="font-size: 36px;">📚</div>
+      <h3>Ongoing Research</h3>
+    </td>
+    <td width="70%">
+      <p><b>Fairness Metrics for Transformer-Based Content Classification</b><br>
+      Developing evaluation frameworks for bias detection in content tagging systems<br>
+      <i>Expected: Fall 2025</i></p>
+      
+      <p><b>Intersectional Approaches to AI Safety</b><br>
+      A framework for evaluating safety systems across multiple dimensions of identity<br>
+      <i>Expected: Winter 2025</i></p>
+      
+      <p><b>Autoethnographic Methods in AI Development</b><br>
+      Structured approaches to incorporate lived experience in model development<br>
+      <i>Expected: Spring 2026</i></p>
+    </td>
+  </tr>
+</table>
 
 ### Technical Proficiency
 
@@ -130,3 +127,11 @@
 <div align="center">
   <i>Bringing together technical excellence, lived experience, and interdisciplinary perspectives<br>to create more equitable and representative AI systems</i>
 </div>
+
+---
+
+#### 🖼 Icon Credits
+
+- [Brain icons created by juicy_fish - Flaticon](https://www.flaticon.com/free-icons/brain)
+- [Diversity icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/diversity)
+- [Privacy icons created by Flat Icons - Flaticon](https://www.flaticon.com/free-icons/privacy)
