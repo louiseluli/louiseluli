@@ -1,27 +1,6 @@
 <!-- Header Banner -->
 <div align="center">
-  <!-- Static fallback image for GitHub README -->
-  <a href="https://louiseluli.github.io/louisesfer/" target="_blank">
-    <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/svg/main-banner.svg" alt="Louise Ferreira - Click for animated version" width="800" />
-    <br>
-    <sup><i>👆 Click for animated banner</i></sup>
-  </a>
-</div>
-
-<!-- Profile Image -->
-<div align="center" style="margin: 20px 0;">
-  <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/images/profile-image.jpg"
-       alt="Louise Ferreira"
-       width="160"
-       style="border-radius:50%; border:3px solid #BB86FC;" />
-</div>
-
-<!-- Profile Image -->
-<div align="center" style="margin: 20px 0;">
-  <img src="./assets/images/profile-image.jpg"
-       alt="Louise Ferreira"
-       width="160"
-       style="border-radius:50%; border:3px solid #BB86FC;" />
+  <img src="./assets/svg/main-banner.svg" alt="Louise Ferreira" width="800" />
 </div>
 
 ## Louise Ferreira (Luli)
@@ -39,11 +18,13 @@
 - **Technical Stack**: Python, PyTorch, HuggingFace, Scikit-learn, Pandas, Fairlearn, AIF360
 - **Cybersecurity**: Data Loss Prevention (DLP), privacy engineering, open-source intelligence (OSINT)
 
+### Research Focus
+
 <div align="center">
   <img src="./assets/svg/research-focus-banner.svg" alt="Research Focus: AI Ethics & Fairness" width="800" />
 </div>
 
-<h2 align="center">Research Areas</h2>
+### Research Areas
 
 <table>
   <tr>
@@ -65,7 +46,7 @@
   </tr>
 </table>
 
-<h3 align="center">Academic Journey</h3>
+### Academic Journey
 
 <div align="center">
   <table>
@@ -89,7 +70,7 @@
   </table>
 </div>
 
-<h2 align="center">Research & Publications</h2>
+### Research & Publications
 
 <table>
 <tr>
@@ -180,9 +161,7 @@
 
 ### Technical Proficiency
 
-<img src="./assets/svg/skills-chart.svg"
-     alt="Skills Chart"
-     width="700" />
+<img src="./assets/svg/skills-chart.svg" alt="Skills Chart" width="700" />
 
 ### Connect
 

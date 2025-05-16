@@ -1,131 +1,60 @@
 <svg width="800" height="130" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Segoe UI', Arial, sans-serif;">
-  <!-- Background with animated gradient -->
-  <defs>
-    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#12151a" />
-      <stop offset="100%" stop-color="#1e2129" />
-      <animate attributeName="x1" values="0%;100%;0%" dur="20s" repeatCount="indefinite" />
-      <animate attributeName="y1" values="0%;100%;0%" dur="20s" repeatCount="indefinite" />
-    </linearGradient>
-    
-    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#E91E63" />
-      <stop offset="50%" stop-color="#BB86FC" />
-      <stop offset="100%" stop-color="#E91E63" />
-      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="100%;200%;100%" dur="10s" repeatCount="indefinite" />
-    </linearGradient>
-    
-    <filter id="nameGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-    
-    <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#2A2D33" stroke-width="0.5" />
-    </pattern>
-    
-    <linearGradient id="subtitleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9c71da" />
-      <stop offset="100%" stop-color="#BB86FC" />
-    </linearGradient>
-    
-    <filter id="subtitleGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="1" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-  </defs>
+  <!-- Static background -->
+  <rect width="100%" height="100%" fill="#1a1d23" />
   
-  <!-- Background elements -->
-  <rect width="100%" height="100%" fill="url(#backgroundGradient)" />
+  <!-- Grid pattern for cybersecurity/tech aesthetic -->
+  <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#2A2D33" stroke-width="0.5" />
+  </pattern>
   <rect width="100%" height="100%" fill="url(#gridPattern)" opacity="0.3" />
   
   <!-- Binary code pattern (AI/ML theme) -->
-  <text x="60" y="20" font-size="8" fill="#30363D" font-family="monospace" opacity="0.5">
-    10010110 01101011 11001010 10101100
-    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="8s" repeatCount="indefinite" />
-  </text>
-  <text x="600" y="25" font-size="8" fill="#30363D" font-family="monospace" opacity="0.5">
-    01110011 01000001 01001001 01001101 01001100
-    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="8s" repeatCount="indefinite" begin="2s" />
-  </text>
-  <text x="100" y="115" font-size="8" fill="#30363D" font-family="monospace" opacity="0.5">
-    01100101 01110100 01101000 01101001 01100011 01110011
-    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="8s" repeatCount="indefinite" begin="4s" />
-  </text>
-  <text x="500" y="120" font-size="8" fill="#30363D" font-family="monospace" opacity="0.5">
-    01100110 01100001 01101001 01110010 01101110 01100101 01110011 01110011
-    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="8s" repeatCount="indefinite" begin="1s" />
-  </text>
+  <text x="60" y="20" font-size="8" fill="#30363D" font-family="monospace" opacity="0.5">10010110 01101011 11001010 10101100</text>
+  <text x="600" y="25" font-size="8" fill="#30363D" font-family="monospace" opacity="0.5">01110011 01000001 01001001 01001101 01001100</text>
+  <text x="100" y="115" font-size="8" fill="#30363D" font-family="monospace" opacity="0.5">01100101 01110100 01101000 01101001 01100011 01110011</text>
+  <text x="500" y="120" font-size="8" fill="#30363D" font-family="monospace" opacity="0.5">01100110 01100001 01101001 01110010 01101110 01100101 01110011 01110011</text>
   
-  <!-- Main name with animation and glow effect -->
-  <text x="400" y="60" font-size="38" fill="url(#textGradient)" text-anchor="middle" font-weight="bold" letter-spacing="1" filter="url(#nameGlow)">
+  <!-- Main name with gradient fill -->
+  <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#E91E63" />
+    <stop offset="50%" stop-color="#BB86FC" />
+    <stop offset="100%" stop-color="#E91E63" />
+  </linearGradient>
+  
+  <text x="400" y="60" font-size="38" fill="url(#textGradient)" text-anchor="middle" font-weight="bold" letter-spacing="1">
     LOUISE FERREIRA
-    <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite" />
   </text>
   
-  <!-- Subtitle with glow and animation -->
-  <text x="400" y="95" font-size="18" fill="url(#subtitleGradient)" text-anchor="middle" font-weight="normal" letter-spacing="0.5" filter="url(#subtitleGlow)">
+  <!-- Subtitle with gradient -->
+  <linearGradient id="subtitleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#9c71da" />
+    <stop offset="100%" stop-color="#BB86FC" />
+  </linearGradient>
+  
+  <text x="400" y="95" font-size="18" fill="url(#subtitleGradient)" text-anchor="middle" font-weight="normal" letter-spacing="0.5">
     AI/ML Specialist • Cybersecurity Professional • Chevening Scholar
-    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite" begin="1s" />
   </text>
   
-  <!-- Animated underline -->
-  <line x1="200" y1="115" x2="600" y2="115" stroke="#BB86FC" stroke-width="1.5" opacity="0.7">
-    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="4s" repeatCount="indefinite" />
-    <animate attributeName="stroke-width" values="1;2;1" dur="4s" repeatCount="indefinite" />
-  </line>
+  <!-- Decorative underline -->
+  <line x1="200" y1="115" x2="600" y2="115" stroke="#BB86FC" stroke-width="1.5" opacity="0.7" />
   
-  <!-- AI/ML decorative elements -->
   <!-- Left side neural node -->
   <g transform="translate(50, 45)">
     <circle cx="0" cy="0" r="10" fill="#1A1D23" stroke="#E91E63" stroke-width="1.5" opacity="0.7" />
-    <line x1="-15" y1="-15" x2="-5" y2="-5" stroke="#E91E63" stroke-width="1" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" />
-    </line>
-    <line x1="15" y1="-15" x2="5" y2="-5" stroke="#E91E63" stroke-width="1" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" begin="0.5s" />
-    </line>
-    <line x1="15" y1="15" x2="5" y2="5" stroke="#E91E63" stroke-width="1" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" begin="1s" />
-    </line>
-    <line x1="-15" y1="15" x2="-5" y2="5" stroke="#E91E63" stroke-width="1" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" begin="1.5s" />
-    </line>
-    <circle cx="0" cy="0" r="4" fill="#E91E63" opacity="0.8">
-      <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite" />
-    </circle>
+    <line x1="-15" y1="-15" x2="-5" y2="-5" stroke="#E91E63" stroke-width="1" opacity="0.5" />
+    <line x1="15" y1="-15" x2="5" y2="-5" stroke="#E91E63" stroke-width="1" opacity="0.5" />
+    <line x1="15" y1="15" x2="5" y2="5" stroke="#E91E63" stroke-width="1" opacity="0.5" />
+    <line x1="-15" y1="15" x2="-5" y2="5" stroke="#E91E63" stroke-width="1" opacity="0.5" />
+    <circle cx="0" cy="0" r="4" fill="#E91E63" opacity="0.8" />
   </g>
   
   <!-- Right side neural node -->
   <g transform="translate(750, 45)">
     <circle cx="0" cy="0" r="10" fill="#1A1D23" stroke="#BB86FC" stroke-width="1.5" opacity="0.7" />
-    <line x1="-15" y1="-15" x2="-5" y2="-5" stroke="#BB86FC" stroke-width="1" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" begin="0.3s" />
-    </line>
-    <line x1="15" y1="-15" x2="5" y2="-5" stroke="#BB86FC" stroke-width="1" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" begin="0.8s" />
-    </line>
-    <line x1="15" y1="15" x2="5" y2="5" stroke="#BB86FC" stroke-width="1" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" begin="1.3s" />
-    </line>
-    <line x1="-15" y1="15" x2="-5" y2="5" stroke="#BB86FC" stroke-width="1" opacity="0.5">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" begin="1.8s" />
-    </line>
-    <circle cx="0" cy="0" r="4" fill="#BB86FC" opacity="0.8">
-      <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" begin="0.5s" />
-      <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite" begin="0.5s" />
-    </circle>
+    <line x1="-15" y1="-15" x2="-5" y2="-5" stroke="#BB86FC" stroke-width="1" opacity="0.5" />
+    <line x1="15" y1="-15" x2="5" y2="-5" stroke="#BB86FC" stroke-width="1" opacity="0.5" />
+    <line x1="15" y1="15" x2="5" y2="5" stroke="#BB86FC" stroke-width="1" opacity="0.5" />
+    <line x1="-15" y1="15" x2="-5" y2="5" stroke="#BB86FC" stroke-width="1" opacity="0.5" />
+    <circle cx="0" cy="0" r="4" fill="#BB86FC" opacity="0.8" />
   </g>
-  
-  <!-- Animated connection pulses between the nodes -->
-  <circle cx="50" cy="45" r="1" fill="#E91E63" opacity="0">
-    <animate attributeName="cx" values="50;400;750" dur="3s" repeatCount="indefinite" begin="1s" />
-    <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite" begin="1s" />
-  </circle>
-  <circle cx="750" cy="45" r="1" fill="#BB86FC" opacity="0">
-    <animate attributeName="cx" values="750;400;50" dur="3s" repeatCount="indefinite" begin="2.5s" />
-    <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite" begin="2.5s" />
-  </circle>
 </svg>
