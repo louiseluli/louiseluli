@@ -1,0 +1,62 @@
+<svg width="800" height="220" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Consolas', 'Courier New', monospace;">
+  <rect width="100%" height="100%" fill="#1A1D23"/>
+
+  <text x="400" y="40" font-size="28" fill="#BB86FC" text-anchor="middle" font-weight="bold">
+    AI & ML KNOWLEDGE CORE
+    <animate attributeName="fill" values="#BB86FC;#E91E63;#BB86FC" dur="5s" repeatCount="indefinite" />
+  </text>
+
+  <rect x="50" y="70" width="700" height="130" rx="8" ry="8" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <circle cx="70" cy="85" r="6" fill="#FF5F57"/> <circle cx="90" cy="85" r="6" fill="#FEBC2E"/> <circle cx="110" cy="85" r="6" fill="#28C840"/> <text x="70" y="120" font-size="14" fill="#00E676">
+    <tspan x="70" dy="0">&gt; Initializing cognitive matrix...</tspan>
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0s" fill="freeze"/>
+  </text>
+  <text x="70" y="140" font-size="14" fill="#00E676" opacity="0">
+    <tspan x="70" dy="0">&gt; Accessing neural networks: <tspan fill="#82AAFF">ONLINE</tspan></tspan>
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1s" fill="freeze"/>
+  </text>
+  <text x="70" y="160" font-size="14" fill="#00E676" opacity="0">
+    <tspan x="70" dy="0">&gt; Processing ethical frameworks: <tspan fill="#FFCB6B">ACTIVE</tspan></tspan>
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2s" fill="freeze"/>
+  </text>
+  <text x="70" y="180" font-size="14" fill="#C3E88D" opacity="0">
+    <tspan x="70" dy="0">&gt; System ready. Welcome, Louise.</tspan>
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze"/>
+  </text>
+
+  <g transform="translate(550, 100)">
+    <defs>
+      <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <circle cx="0" cy="0" r="10" fill="#E91E63" filter="url(#nodeGlow)">
+      <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="2s" repeatCount="indefinite" begin="0s"/>
+    </circle>
+    <circle cx="40" cy="-20" r="8" fill="#BB86FC">
+      <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+    </circle>
+    <circle cx="50" cy="25" r="7" fill="#00BCD4">
+      <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+    </circle>
+    <circle cx="-30" cy="30" r="6" fill="#00E676">
+      <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+    <circle cx="-25" cy="-25" r="5" fill="#FFCB6B">
+      <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+    <line x1="0" y1="0" x2="40" y2="-20" stroke="#BB86FC" stroke-width="1" opacity="0.5">
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="0" x2="50" y2="25" stroke="#00BCD4" stroke-width="1" opacity="0.5">
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+     <line x1="0" y1="0" x2="-30" y2="30" stroke="#00E676" stroke-width="1" opacity="0.5">
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </line>
+  </g>
+</svg>

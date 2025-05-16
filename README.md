@@ -1,91 +1,118 @@
 <div align="center">
-  <img src="./assets/themes/theme-banner.svg" alt="Louise Ferreira - AI/ML Specialist" width="800" />
+  <img src="./assets/svg/main-banner.svg" alt="Louise Ferreira - AI/ML Specialist, Cybersecurity Professional, Chevening Scholar" width="800" />
 </div>
-<div align="center">
-  <img src="./assets/profile-image.jpg" alt="Louise Ferreira" width="200" style="border-radius:50%; border:3px solid #8a2be2;" />
+
+<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="./assets/images/profile-image.jpg" alt="Louise Ferreira" width="200" style="border-radius:50%; border:4px solid #BB86FC; box-shadow: 0 0 15px #BB86FC60;" />
 </div>
-<div align="center">
-  <img src="./assets/complex-animation.svg" alt="AI/ML System Animation" width="800" />
+
+<div align="center" style="margin-bottom: 30px;">
+  <img src="./assets/svg/ai-ml-animation.svg" alt="AI & ML Knowledge Core Animation" width="800" />
 </div>
-<p align="center">
+
+<p align="center" style="margin-bottom: 30px;">
   <a href="mailto:silvaferreiralouise@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" alt="Email Louise Ferreira" />
   </a>
   <a href="https://www.linkedin.com/in/louisesfer/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="Louise Ferreira LinkedIn" />
   </a>
-  <a href="https://scholar.google.com/citations"> {/* Ensure this is your correct Google Scholar link */}
-    <img src="https://img.shields.io/badge/Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar" />
+  <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"> {/* Replace YOUR_SCHOLAR_ID with your actual Google Scholar ID */}
+    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white&labelColor=4285F4" alt="Louise Ferreira Google Scholar" />
   </a>
 </p>
+
 ## 🧠 Research & Technical Focus
-As a Chevening Scholar pursuing an MSc in Artificial Intelligence, I specialize in:
-- **Natural Language Processing** — Advanced text analysis with transformers & bias mitigation
-- **Data Privacy & Protection** — Securing sensitive information in AI systems
-- **Cybersecurity Intelligence** — ML-driven threat detection & vulnerability assessment
-- **Algorithmic Fairness** — Ensuring equitable outcomes for marginalized communities
 
-My research bridges technical implementation with critical social impact, particularly focusing on how AI systems can both perpetuate and mitigate bias across intersectional identities.
+As a **Chevening Scholar** pursuing an MSc in Artificial Intelligence, my work is centered at the confluence of cutting-edge technology and critical societal impact. I specialize in:
 
-<div align="center">
-  <img src="./assets/skills-chart.svg" alt="Skills Chart" width="600" />
+- **Advanced Natural Language Processing:** Leveraging transformers for nuanced text analysis, with a strong emphasis on **bias detection and mitigation** strategies.
+- **Data Privacy & Algorithmic Protection:** Engineering robust techniques to secure sensitive information within AI systems and ensure data integrity.
+- **Cybersecurity Intelligence:** Applying machine learning for proactive **threat detection, vulnerability assessment, and anomaly identification**.
+- **Algorithmic Fairness & Ethics:** Championing the development and deployment of AI systems that ensure **equitable outcomes for marginalized communities** and uphold ethical principles.
+
+My research endeavors to bridge rigorous technical implementation with a deep understanding of social dynamics, particularly focusing on how AI systems can both perpetuate and counteract bias across intersectional identities.
+
+<div align="center" style="margin-top: 25px; margin-bottom: 25px;">
+  <img src="./assets/svg/skills-chart.svg" alt="Technical Proficiency Matrix" width="700" />
 </div>
+
 ## 🛠️ Technical Arsenal
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
-  <img src="https://img.shields.io/badge/NLTK-154f5b?style=for-the-badge&logo=python&logoColor=white" alt="NLTK" />
-  <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-</p>
-## 📚 Education
-- **MSc in Artificial Intelligence and its Applications** — University of Essex *(Chevening Scholar)*
-- **MA in Cultural Studies (Transatlantic Studies)** — Jagiellonian University
-- **BA in International Relations** — Federal University of Santa Catarina
-- **Certificate in Data Privacy and Technology** — Harvard Online
-## 🎭 The Dark Aesthete: Beyond Code 💀
-<details>
-  <summary><b>Click to explore my world outside technology</b></summary>
 
-### 🎬 Cinematic Universe
+My toolkit is comprised of state-of-the-art technologies and frameworks essential for pioneering AI research and development:
 
-- **Film Noir & Golden Age** — Screwball comedies and shadowy narratives
-- **Horror Aficionado** — Vincent Price classics and 80s cult films
-- **Thematic Fascinations** — Time loops, identity shifts, justified vengeance
+<p align="center" style="margin-top:15px; margin-bottom:15px;">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=3776AB" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=EE4C2C" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white&labelColor=FF6F00" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white&labelColor=F7931E" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white&labelColor=150458" alt="Pandas" />
+  <img src="https://img.shields.io/badge/HuggingFace_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black&labelColor=FFD21E" alt="HuggingFace Transformers" />
+  <img src="https://img.shields.io/badge/NLTK-38761D?style=flat-square&logo=python&logoColor=white&labelColor=38761D" alt="NLTK" />
+  <img src="https://img.shields.io/badge/Microsoft_Azure_AI-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white&labelColor=0078D4" alt="Microsoft Azure AI" />
+  </p>
 
-### 🎧 Sonic Landscapes
+## 📚 Academic & Scholarly Pursuits
 
-- **Core Resonance** — Grunge (Alice in Chains), Progressive Rock (Porcupine Tree), Doom Metal
-- **Cultural Roots** — Brazilian rhythms, Jazz explorations, Soul classics
+My academic journey reflects a deep commitment to interdisciplinary research and excellence:
 
-### ✒️ Literary & Creative Pursuits
+- **MSc in Artificial Intelligence and its Applications** – University of Essex _(Distinguished Chevening Scholar)_
+- **MA in Cultural Studies (Transatlantic Studies)** – Jagiellonian University, Kraków
+- **BA in International Relations** – Federal University of Santa Catarina, Brazil
+- **Certificate in Data Privacy and Technology** – Harvard University (Online)
 
-My writing explores intersectionality, identity formation, and digital anthropology through a feminist lens.
+## 🎭 The Dark Aesthete: Beyond the Algorithm 💀
 
-### 🌐 Languages & Cultural Experience {/_ This incorporates the "Global Citizen" fix _/}
+While my professional focus is on the logical structures of AI, my intellectual curiosity extends to the rich tapestry of human expression and experience. This "geek side" profoundly informs my perspective on technology's role in society.
 
-- **Languages** — Portuguese (native), English (fluent), French, Polish, Spanish (working proficiency)
-- **Cultural Experience** — Professional work and academic study across Brazil, Poland, and the UK
+<details style="margin-top: 10px; margin-bottom:25px; background-color: #23272E; border-radius: 8px; padding: 15px; border: 1px solid #30363D;">
+  <summary style="font-weight: bold; color: #BB86FC; cursor: pointer;">Click to explore my world of inspirations...</summary>
+
+  <div style="margin-top: 15px;">
+    <h4 style="color: #E91E63; border-bottom: 1px solid #E91E6330; padding-bottom: 5px;">🎬 Cinematic Universe: Narratives of Intrigue & Shadow</h4>
+    <ul style="color: #C5C5C5; list-style-type: '🎞️ '; padding-left: 20px;">
+      <li>**Film Noir & Golden Age Classics:** The sharp wit of screwball comedies and the complex morality of noir.</li>
+      <li>**Horror Aficionado:** Reverence for Vincent Price's iconic roles and the visceral energy of 80s cult cinema (e.g., *The Evil Dead*).</li>
+      <li>**Thematic Fascinations:** Intricate plots involving time loops, mistaken identities, and meticulously justified vengeance.</li>
+    </ul>
+
+    <h4 style="color: #BB86FC; border-bottom: 1px solid #BB86FC30; padding-bottom: 5px; margin-top:20px;">🎧 Sonic Landscapes: From Grunge Catharsis to Progressive Journeys</h4>
+    <ul style="color: #C5C5C5; list-style-type: '🎶 '; padding-left: 20px;">
+      <li>**Core Resonance:** The raw emotion of Grunge (Alice in Chains), the intricate storytelling of Progressive Rock (Porcupine Tree, Tool), and the atmospheric depths of Doom Metal.</li>
+      <li>**Cultural & Eclectic Echoes:** The vibrant rhythms of Brazilian music, the improvisational spirit of Jazz, and the timeless appeal of Soul classics.</li>
+    </ul>
+
+    <h4 style="color: #00BCD4; border-bottom: 1px solid #00BCD430; padding-bottom: 5px; margin-top:20px;">✒️ Literary & Creative Pursuits: Intersectional Narratives</h4>
+    <p style="color: #C5C5C5;">My writing delves into themes of intersectionality, identity formation, and digital anthropology, often through a critical feminist lens and with a passion for autoethnography.</p>
+
+    <h4 style="color: #00E676; border-bottom: 1px solid #00E67630; padding-bottom: 5px; margin-top:20px;">🌐 Global Perspectives & Cultural Fluency</h4>
+    <ul style="color: #C5C5C5; list-style-type: '🌍 '; padding-left: 20px;">
+      <li>**Languages:** Portuguese (Native), English (Fluent), French, Polish, Spanish (Working Proficiency).</li>
+      <li>**Cultural Immersion:** Enriched by professional work and academic study across diverse cultural landscapes including Brazil, Poland, and the United Kingdom.</li>
+    </ul>
+
+  </div>
 </details>
 
-## 🔭 Current Research Directions
+## 🔭 Current Research Trajectories & Collaborations
 
-I'm currently investigating:
+I am actively investigating and seeking collaborations in the following areas:
 
-- **Bias detection in recommender systems** — Focusing on tagging systems and content classification
-- **Fairness metrics for NLP models** — Developing refined evaluation frameworks
-- **Secure federated learning** — Privacy-preserving methods for distributed model training
+- **Bias Detection and Mitigation in Recommender Systems:** With a specific focus on tagging mechanisms and content classification fairness.
+- **Advanced Fairness Metrics for NLP Models:** Developing more nuanced and context-aware evaluation frameworks for language technologies.
+- **Secure and Private Federated Learning:** Exploring innovative privacy-preserving methodologies for distributed machine learning model training.
 
-## Seeking collaborations at the intersection of AI ethics, cybersecurity, and social impact.
+I am keen to connect with fellow researchers, industry professionals, and organizations passionate about advancing AI ethics, enhancing cybersecurity, and driving positive social impact through technology.
 
-<div align="center">
+---
+
+<div align="center" style="margin-top: 20px;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake-dark.svg?sanitize=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake.svg?sanitize=true">
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-contribution-grid-snake.svg?sanitize=true">
   </picture>
+</div>
+<div align="center" style="margin-top: 10px; font-size: 0.8em; color: #757575;">
+  Snake animation dynamically displays my GitHub contribution activity.
 </div>
