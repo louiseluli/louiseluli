@@ -32,7 +32,7 @@
   <img src="./assets/svg/research-focus-banner.svg" alt="Research Focus: AI Ethics & Fairness" width="800" />
 </div>
 
-<!-- NEW: Add Research Interconnections Visualization -->
+<!-- Add Research Interconnections Visualization -->
 <div align="center">
   <img src="./assets/svg/neural-network-banner.svg" alt="Research Interconnections Map" width="700" />
 </div>
@@ -97,7 +97,7 @@
   </table>
 </div>
 
-<!-- NEW: Add GitHub Stats Section -->
+<!-- Add GitHub Stats Section -->
 <h2 align="center">GitHub & Development Metrics</h2>
 
 <div align="center">
@@ -114,6 +114,7 @@
 <table>
 <tr>
   <td>
+
 <!-- Intersectional Approaches to AI Safety -->
 <h4>Intersectional Approaches to AI Safety</h4>
 <p>
@@ -204,7 +205,7 @@
      alt="Skills Chart"
      width="700" />
 
-<!-- NEW: Add Terminal-style Animation -->
+<!-- Add Terminal-style Animation -->
 <div align="center">
   <img src="./assets/svg/ai-ml-animation.svg" alt="AI Terminal" width="800" />
 </div>

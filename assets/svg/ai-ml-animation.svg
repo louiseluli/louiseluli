@@ -15,7 +15,7 @@
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
     
-    <!-- Node gradients for neural network -->
+    <!-- Node gradients -->
     <radialGradient id="nodeGradient1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
       <stop offset="0%" stop-color="#E91E63" stop-opacity="1"/>
       <stop offset="100%" stop-color="#E91E63" stop-opacity="0.6"/>
@@ -28,27 +28,11 @@
       <stop offset="0%" stop-color="#00BCD4" stop-opacity="1"/>
       <stop offset="100%" stop-color="#00BCD4" stop-opacity="0.6"/>
     </radialGradient>
-    <radialGradient id="nodeGradient4" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-      <stop offset="0%" stop-color="#00E676" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#00E676" stop-opacity="0.6"/>
-    </radialGradient>
-    <radialGradient id="nodeGradient5" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-      <stop offset="0%" stop-color="#FFCB6B" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#FFCB6B" stop-opacity="0.6"/>
-    </radialGradient>
-    
-    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <!-- Title with animated gradient -->
   <text x="400" y="40" font-size="28" fill="url(#titleGradient)" text-anchor="middle" font-weight="bold" filter="url(#glow)">
-    AI & ML KNOWLEDGE CORE
+    AI &amp; ML KNOWLEDGE CORE
   </text>
 
   <!-- Terminal-like interface -->
@@ -59,7 +43,7 @@
   <circle cx="90" cy="85" r="6" fill="#FEBC2E"/> 
   <circle cx="110" cy="85" r="6" fill="#28C840"/>
 
-  <!-- Terminal text with typewriter-like animation -->
+  <!-- Terminal text with typewriter animation -->
   <text x="70" y="120" font-size="14" fill="#00E676" opacity="0">
     <tspan x="70" dy="0">&gt; Initializing neural framework...</tspan>
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze"/>
@@ -81,25 +65,25 @@
   </text>
 
   <!-- Neural network visualization -->
-  <g transform="translate(550, 100)">
-    <!-- Neural network nodes -->
-    <circle cx="0" cy="0" r="10" fill="url(#nodeGradient1)" filter="url(#nodeGlow)">
+  <g transform="translate(550, 125)">
+    <!-- Nodes -->
+    <circle cx="0" cy="0" r="10" fill="url(#nodeGradient1)" filter="url(#glow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="2s" repeatCount="indefinite" begin="0s"/>
     </circle>
-    <circle cx="40" cy="-20" r="8" fill="url(#nodeGradient2)" filter="url(#nodeGlow)">
+    <circle cx="40" cy="-20" r="8" fill="url(#nodeGradient2)" filter="url(#glow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.2s"/>
     </circle>
-    <circle cx="50" cy="25" r="7" fill="url(#nodeGradient3)" filter="url(#nodeGlow)">
+    <circle cx="50" cy="25" r="7" fill="url(#nodeGradient3)" filter="url(#glow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.4s"/>
     </circle>
-    <circle cx="-30" cy="30" r="6" fill="url(#nodeGradient4)" filter="url(#nodeGlow)">
+    <circle cx="-30" cy="30" r="6" fill="#00E676" filter="url(#glow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.6s"/>
     </circle>
-    <circle cx="-25" cy="-25" r="5" fill="url(#nodeGradient5)" filter="url(#nodeGlow)">
+    <circle cx="-25" cy="-25" r="5" fill="#FFCB6B" filter="url(#glow)">
       <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite" begin="0.8s"/>
     </circle>
 
-    <!-- Neural network connections with animated pulses -->
+    <!-- Connections -->
     <line x1="0" y1="0" x2="40" y2="-20" stroke="#BB86FC" stroke-width="1" opacity="0.5">
       <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
     </line>
@@ -113,7 +97,7 @@
       <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite" begin="1.5s"/>
     </line>
 
-    <!-- Animated data pulses -->
+    <!-- Data pulses -->
     <circle cx="0" cy="0" r="2" fill="#E91E63">
       <animate attributeName="cx" values="0;40" dur="1.5s" repeatCount="indefinite" begin="0s"/>
       <animate attributeName="cy" values="0;-20" dur="1.5s" repeatCount="indefinite" begin="0s"/>
@@ -123,11 +107,6 @@
       <animate attributeName="cx" values="0;50" dur="2s" repeatCount="indefinite" begin="0.7s"/>
       <animate attributeName="cy" values="0;25" dur="2s" repeatCount="indefinite" begin="0.7s"/>
       <animate attributeName="opacity" values="1;0" dur="2s" repeatCount="indefinite" begin="0.7s"/>
-    </circle>
-    <circle cx="0" cy="0" r="2" fill="#00E676">
-      <animate attributeName="cx" values="0;-30" dur="1.8s" repeatCount="indefinite" begin="1.3s"/>
-      <animate attributeName="cy" values="0;30" dur="1.8s" repeatCount="indefinite" begin="1.3s"/>
-      <animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite" begin="1.3s"/>
     </circle>
   </g>
 </svg>
