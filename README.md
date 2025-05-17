@@ -32,11 +32,6 @@
   <img src="./assets/svg/research-focus-banner.svg" alt="Research Focus: AI Ethics & Fairness" width="800" />
 </div>
 
-<!-- Add Research Interconnections Visualization -->
-<div align="center">
-  <img src="./assets/svg/neural-network-banner.svg" alt="Research Interconnections Map" width="700" />
-</div>
-
 <h2 align="center">Research Areas</h2>
 
 <table>
