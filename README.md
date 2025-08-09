@@ -22,22 +22,6 @@
 
 ---
 
-### 🚀 Recent Activity & Portfolio
-
-This section automatically updates to showcase my latest projects and contributions.
-
-<div align="center">
-  <a href="https://github.com/louiseluli/dissertation-bias-analysis">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=louiseluli&repo=dissertation-bias-analysis&theme=material-palenight&border_radius=10" alt="Dissertation Bias Analysis"/>
-  </a>
-  <a href="https://github.com/louiseluli/sentiment-analysis-transformers">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=louiseluli&repo=sentiment-analysis-transformers&theme=material-palenight&border_radius=10" alt="Sentiment Analysis with Transformers"/>
-  </a>
-  <a href="https://github.com/louiseluli/elasticsearch-movie-retrieval">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=louiseluli&repo=elasticsearch-movie-retrieval&theme=material-palenight&border_radius=10" alt="Elasticsearch Movie Retrieval"/>
-  </a>
-</div>
----
 
 ### 💻 Core Technical Competencies
 
