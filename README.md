@@ -95,7 +95,7 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
 <br>
 
 - **MSc in Artificial Intelligence (2025):** _Detecting and Mitigating Algorithmic Bias in ML Models Categorizing Adult Content Metadata._
-  - **Technical Focus:** Applied fairness metrics (Equal Opportunity, Demographic Parity) and advanced NLP techniques to analyze a dataset of 134k+ videos, focusing on intersectional identities.
+  - **Technical Focus:** Applied fairness metrics (Equal Opportunity, Demographic Parity) and advanced NLP techniques to analyze a dataset of 535k+ videos, focusing on intersectional identities.
 - **MA in Cultural Studies & BA in International Relations:** Foundational training in critical thinking, societal structures, and qualitative analysis, which informs my approach to AI ethics.
 
 ---
