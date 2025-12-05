@@ -157,12 +157,6 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
   </picture>
 </div>
 
-<br>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=louiseluli&style=for-the-badge&color=BB86FC&label=PROFILE+VIEWS" alt="Profile Views"/>
-</div>
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,25,27&height=100&section=footer" width="100%"/>
 </div>
