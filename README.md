@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,25,27&height=180&section=header&text=&fontSize=0" width="100%"/>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/svg/main-banner.svg" alt="Louise Ferreira Banner" width="850" />
 </div>
@@ -12,16 +14,27 @@
 ## Louise Ferreira (Luli)
 
 <div align="center">
+  
+  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=BB86FC&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=Machine+Learning+Engineer+%40+CloudWalk;Chevening+%7C+Lemann+Foundation+Alumna)
+  
+</div>
+
+<div align="center">
   <p>
-    <b>AI Researcher & Engineer | ML Specialist | Cybersecurity Professional</b>
+    <i>🌍 Based in Rio de Janeiro, but not always</i>
   </p>
   <p>
     <i>I engineer robust and equitable AI systems by applying principles from cybersecurity and privacy to machine learning. My work focuses on building fairness-aware NLP models, developing bias mitigation algorithms, and architecting privacy-preserving ML pipelines. I am driven by the technical challenges of creating AI that is not only powerful but also transparent, secure, and accountable.</i>
   </p>
 </div>
 
----
+<div align="center">
+  <a href="https://louiseluli.github.io/louiseferreira.github.io/">
+    <img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-BB86FC?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+  </a>
+</div>
 
+---
 
 ### 💻 Core Technical Competencies
 
@@ -66,16 +79,29 @@ These metrics reflect my ongoing commitment to coding and open-source exploratio
 
 My academic journey has provided me with a unique interdisciplinary lens to approach complex AI challenges.
 
--   **MSc Dissertation (2025):** *Detecting and Mitigating Algorithmic Bias in ML Models Categorizing Adult Content Metadata.*
-    -   **Technical Focus:** Applied fairness metrics (Equal Opportunity, Demographic Parity) and advanced NLP techniques to analyze a dataset of 134k+ videos, focusing on intersectional identities.
--   **Chevening Scholar:** Prestigious award for academic excellence and leadership potential.
--   **MA in Cultural Studies & BA in International Relations:** Foundational training in critical thinking, societal structures, and qualitative analysis, which informs my approach to AI ethics.
+<div align="center">
+  <img src="https://img.shields.io/badge/MSc-Artificial_Intelligence_(2025)-E91E63?style=flat-square&logo=graduation-cap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chevening-Alumna-00BCD4?style=flat-square&logo=gov.uk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lemann_Foundation-Alumna-6200EA?style=flat-square&logoColor=white" />
+</div>
+
+<br>
+
+- **MSc in Artificial Intelligence (2025):** _Detecting and Mitigating Algorithmic Bias in ML Models Categorizing Adult Content Metadata._
+  - **Technical Focus:** Applied fairness metrics (Equal Opportunity, Demographic Parity) and advanced NLP techniques to analyze a dataset of 134k+ videos, focusing on intersectional identities.
+- **Chevening & Lemann Foundation Scholar:** Prestigious awards for academic excellence and leadership potential.
+- **MA in Cultural Studies & BA in International Relations:** Foundational training in critical thinking, societal structures, and qualitative analysis, which informs my approach to AI ethics.
 
 ---
 
 ### 📞 Connect With Me
 
 <p align="center">
+  <a href="https://louiseluli.github.io/louiseferreira.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-BB86FC?style=for-the-badge&logo=safari&logoColor=white"
+         alt="Portfolio" />
+  </a>
+  &nbsp;
   <a href="mailto:silvaferreiralouise@gmail.com">
     <img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=mail.ru&logoColor=white"
          alt="Email Louise" />
@@ -86,3 +112,7 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
          alt="LinkedIn Louise" />
   </a>
 </p>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,25,27&height=100&section=footer" width="100%"/>
+</div>
