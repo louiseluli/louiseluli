@@ -60,17 +60,54 @@ My expertise spans the full machine learning lifecycle, from data engineering an
   </tr>
 </table>
 
+<br>
+
+### 🛠️ Tech Stack
+
+<div align="center">
+  
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+  ![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
+  ![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+  
+  ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+  
+</div>
+
 ---
 
 ### 📊 Development Metrics & Statistics
 
-These metrics reflect my ongoing commitment to coding and open-source exploration. This section updates automatically.
+These metrics reflect my ongoing commitment to coding and open-source exploration.
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=louiseluli&show_icons=true&theme=material-palenight&hide_border=true&count_private=true&card_width=500" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=louiseluli&theme=material-palenight&hide_border=true" alt="Streak Stats" height="170"/>
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=louiseluli&layout=compact&theme=material-palenight&hide_border=true&langs_count=8" alt="Top Languages"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=louiseluli&show_icons=true&theme=material-palenight&hide_border=true&count_private=true&card_width=495&bg_color=1a1d23" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=louiseluli&show_icons=true&theme=material-palenight&hide_border=true&count_private=true&card_width=495" alt="GitHub Stats" height="170"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=louiseluli&theme=material-palenight&hide_border=true&background=1a1d23" />
+    <img src="https://streak-stats.demolab.com?user=louiseluli&theme=material-palenight&hide_border=true" alt="Streak Stats" height="170"/>
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=louiseluli&layout=compact&theme=material-palenight&hide_border=true&langs_count=8&bg_color=1a1d23" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=louiseluli&layout=compact&theme=material-palenight&hide_border=true&langs_count=8" alt="Top Languages"/>
+  </picture>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=louiseluli&bg_color=1a1d23&color=bb86fc&line=e91e63&point=00bcd4&area=true&area_color=bb86fc&hide_border=true" width="95%" alt="Activity Graph"/>
 </div>
 
 ---
@@ -89,7 +126,6 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
 
 - **MSc in Artificial Intelligence (2025):** _Detecting and Mitigating Algorithmic Bias in ML Models Categorizing Adult Content Metadata._
   - **Technical Focus:** Applied fairness metrics (Equal Opportunity, Demographic Parity) and advanced NLP techniques to analyze a dataset of 134k+ videos, focusing on intersectional identities.
-- **Chevening & Lemann Foundation Scholar:** Prestigious awards for academic excellence and leadership potential.
 - **MA in Cultural Studies & BA in International Relations:** Foundational training in critical thinking, societal structures, and qualitative analysis, which informs my approach to AI ethics.
 
 ---
@@ -112,6 +148,20 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
          alt="LinkedIn Louise" />
   </a>
 </p>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/louiseluli/louiseluli/output/github-snake.svg" width="100%" />
+  </picture>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=louiseluli&style=for-the-badge&color=BB86FC&label=PROFILE+VIEWS" alt="Profile Views"/>
+</div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,25,27&height=100&section=footer" width="100%"/>
