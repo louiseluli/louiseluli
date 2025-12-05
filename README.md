@@ -82,36 +82,6 @@ My expertise spans the full machine learning lifecycle, from data engineering an
 
 ---
 
-### 📊 Development Metrics & Statistics
-
-These metrics reflect my ongoing commitment to coding and open-source exploration.
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=louiseluli&show_icons=true&theme=material-palenight&hide_border=true&count_private=true&card_width=495&bg_color=1a1d23" />
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=louiseluli&show_icons=true&theme=material-palenight&hide_border=true&count_private=true&card_width=495" alt="GitHub Stats" height="170"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=louiseluli&theme=material-palenight&hide_border=true&background=1a1d23" />
-    <img src="https://streak-stats.demolab.com?user=louiseluli&theme=material-palenight&hide_border=true" alt="Streak Stats" height="170"/>
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=louiseluli&layout=compact&theme=material-palenight&hide_border=true&langs_count=8&bg_color=1a1d23" />
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=louiseluli&layout=compact&theme=material-palenight&hide_border=true&langs_count=8" alt="Top Languages"/>
-  </picture>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=louiseluli&bg_color=1a1d23&color=bb86fc&line=e91e63&point=00bcd4&area=true&area_color=bb86fc&hide_border=true" width="95%" alt="Activity Graph"/>
-</div>
-
----
-
 ### 🎓 Academic & Research Highlights
 
 My academic journey has provided me with a unique interdisciplinary lens to approach complex AI challenges.
