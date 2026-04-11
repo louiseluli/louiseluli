@@ -24,7 +24,7 @@
     <i>From Mesquita, Baixada Fluminense • Based in Rio de Janeiro</i>
   </p>
   <p>
-    <i>I build machine learning systems with a focus on evaluation, fairness, reliability, and accountability. My work sits at the intersection of machine learning, NLP, privacy, and security, with particular interest in bias auditing, mitigation methods, and robust AI systems for real-world use.</i>
+    <i>I build machine learning systems with a focus on evaluation, fairness, reliability, and accountability. I work with the intersection of machine learning, NLP, privacy, and security, with particular focus on bias auditing, mitigation, and robust AI systems for real-world use.</i>
   </p>
 </div>
 
@@ -109,13 +109,12 @@ My academic background combines technical machine learning work with interdiscip
   - **Perspective:** interdisciplinary training that informs how I approach AI, governance, representation, and accountability.
 
 ---
-
 ### 🚀 Featured Work
 
-- **AlgoFairness-Pornometrics** — fairness auditing and mitigation in sensitive-domain categorisation  
-- **mentor-digital** — misinformation analysis with a media-literacy-first assistant  
-- **classic-cinema-ai-analysis** — machine learning analysis of classic cinema, culture, and representation  
-- **louiseferreira.github.io** — portfolio, projects, and technical case studies  
+- **[AlgoFairness-Pornometrics](https://github.com/louiseluli/AlgoFairness-Pornometrics)** — fairness auditing and mitigation in sensitive-domain categorisation  
+- **[mentor-digital](https://github.com/louiseluli/mentor-digital)** — misinformation analysis with a media-literacy-first assistant  
+- **[classic-cinema-ai-analysis](https://github.com/louiseluli/classic-cinema-ai-analysis)** — machine learning analysis of classic cinema, culture, and representation  
+- **[louiseferreira.github.io](https://github.com/louiseluli/louiseferreira.github.io)** — portfolio, projects, and technical case studies  
 
 ---
 
