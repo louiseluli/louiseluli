@@ -1,11 +1,11 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,25,27&height=180&section=header&text=&fontSize=0" width="100%"/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/svg/main-banner.svg" alt="Louise Ferreira Banner" width="850" />
+  <img src="https://raw.githubusercontent.com/louiseluli/louiseluli/main/assets/svg/main-banner.svg" alt="Louise Ferreira Banner" width="850" />
 </div>
 
 <div align="center" style="margin: 30px 0;">
-  <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/images/profile-image.jpg"
+  <img src="https://raw.githubusercontent.com/louiseluli/louiseluli/main/assets/images/profile-image.jpg"
        alt="Louise Ferreira"
        width="170"
        style="border-radius:50%; border:4px solid #BB86FC;" />
@@ -43,17 +43,17 @@ My expertise spans the full machine learning lifecycle, from data engineering an
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/icons/brain.png" width="60" alt="NLP Icon"/>
+      <img src="https://raw.githubusercontent.com/louiseluli/louiseluli/main/assets/icons/brain.png" width="60" alt="NLP Icon"/>
       <h3>Fairness-Aware NLP</h3>
       <p><b>Techniques:</b> Counterfactual Data Augmentation, Intersectional Bias Metrics, BERT/RoBERTa Fine-Tuning for Fairness.<br><b>Tools:</b> Hugging Face, Fairlearn, PyTorch.</p>
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/icons/diversity.png" width="60" alt="Algorithms Icon"/>
+      <img src="https://raw.githubusercontent.com/louiseluli/louiseluli/main/assets/icons/diversity.png" width="60" alt="Algorithms Icon"/>
       <h3>Bias Mitigation Algorithms</h3>
       <p><b>Methods:</b> Adversarial Debiasing, Reweighting, Post-processing Adjustments (e.g., Calibrated Equalized Odds).<br><b>Tools:</b> AIF360, Scikit-learn.</p>
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/louiseluli/louisesfer/main/assets/icons/privacy.png" width="60" alt="Privacy Icon"/>
+      <img src="https://raw.githubusercontent.com/louiseluli/louiseluli/main/assets/icons/privacy.png" width="60" alt="Privacy Icon"/>
       <h3>Privacy & Security in ML</h3>
       <p><b>Concepts:</b> Data Loss Prevention (DLP) Policies, Privacy Engineering, OSINT for Threat Modeling.<br><b>Certifications:</b> BigID Certified Admin.</p>
     </td>
@@ -77,8 +77,20 @@ My expertise spans the full machine learning lifecycle, from data engineering an
   ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
   ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+  ![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge)
+  ![FAISS](https://img.shields.io/badge/FAISS-00599C?style=for-the-badge)
+  ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+  ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
   
 </div>
+
+---
+
+### 💼 Recent Highlights
+
+- **Machine Learning Engineer @ CloudWalk (Aug 2025 – Present):** Designing, building, and maintaining scalable ML infrastructure, deploying models for real-time inference, and developing REST APIs for production ML services.
+- **Summer Intern @ Inter-American Development Bank (Jun – Aug 2025), Washington, D.C.:** Built an AI-powered RAG chatbot for the Office of the Secretary — combining Hugging Face embeddings, FAISS, and BM25 for hybrid semantic search, orchestrated with LangChain and Azure OpenAI GPT-4o, with a C#/SQL backend for real-time enterprise data access.
 
 ---
 
@@ -95,7 +107,7 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
 <br>
 
 - **MSc in Artificial Intelligence (2025):** _Detecting and Mitigating Algorithmic Bias in ML Models Categorizing Adult Content Metadata._
-  - **Technical Focus:** Applied fairness metrics (Equal Opportunity, Demographic Parity) and advanced NLP techniques to analyze a dataset of 535k+ videos, focusing on intersectional identities.
+  - **Technical Focus:** Applied fairness metrics (Equal Opportunity, Demographic Parity) and advanced NLP techniques to analyze a dataset of nearly 700,000 videos, focusing on intersectional identities.
 - **MA in Cultural Studies & BA in International Relations:** Foundational training in critical thinking, societal structures, and qualitative analysis, which informs my approach to AI ethics.
 
 ---
@@ -108,7 +120,7 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
          alt="Portfolio" />
   </a>
   &nbsp;
-  <a href="mailto:silvaferreiralouise@gmail.com">
+  <a href="mailto:louisesfer@gmail.com">
     <img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=mail.ru&logoColor=white"
          alt="Email Louise" />
   </a>
