@@ -15,16 +15,16 @@
 
 <div align="center">
   
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=BB86FC&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=Machine+Learning+Engineer+%40+CloudWalk;Chevening+%7C+Lemann+Foundation+Alumna)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=BB86FC&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=80&lines=Machine+Learning+Engineer+%40+CloudWalk;AI+Evaluation%2C+Fairness%2C+and+Responsible+ML)
   
 </div>
 
 <div align="center">
   <p>
-    <i>🌍 Based in Rio de Janeiro, but not always</i>
+    <i>From Mesquita, Baixada Fluminense • Based in Rio de Janeiro</i>
   </p>
   <p>
-    <i>I engineer robust and equitable AI systems by applying principles from cybersecurity and privacy to machine learning. My work focuses on building fairness-aware NLP models, developing bias mitigation algorithms, and architecting privacy-preserving ML pipelines. I am driven by the technical challenges of creating AI that is not only powerful but also transparent, secure, and accountable.</i>
+    <i>I build machine learning systems with a focus on evaluation, fairness, reliability, and accountability. I work with the intersection of machine learning, NLP, privacy, and security, with particular focus on bias auditing, mitigation, and robust AI systems for real-world use.</i>
   </p>
 </div>
 
@@ -38,24 +38,33 @@
 
 ### 💻 Core Technical Competencies
 
-My expertise spans the full machine learning lifecycle, from data engineering and model development to ethical evaluation and deployment.
+I work across the ML lifecycle, with emphasis on evaluation, fairness, mitigation, and deployment-minded engineering.
+
+<div align="center">
+
+![AI Evaluation](https://img.shields.io/badge/AI_Evaluation-BB86FC?style=flat-square)
+![Fairness](https://img.shields.io/badge/Fairness-9D4EDD?style=flat-square)
+![NLP](https://img.shields.io/badge/NLP-C77DFF?style=flat-square)
+![Privacy](https://img.shields.io/badge/Privacy-7B2CBF?style=flat-square)
+![Security](https://img.shields.io/badge/Security-5A189A?style=flat-square)
+
+</div>
+
+<br>
 
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/louiseluli/louiseluli/main/assets/icons/brain.png" width="60" alt="NLP Icon"/>
-      <h3>Fairness-Aware NLP</h3>
-      <p><b>Techniques:</b> Counterfactual Data Augmentation, Intersectional Bias Metrics, BERT/RoBERTa Fine-Tuning for Fairness.<br><b>Tools:</b> Hugging Face, Fairlearn, PyTorch.</p>
+      <h3>🧠 ML Evaluation & NLP</h3>
+      <p><b>Focus:</b> model evaluation, text classification, representation analysis, and fairness-aware NLP workflows.<br><b>Tools:</b> Python, Hugging Face, PyTorch, scikit-learn.</p>
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/louiseluli/louiseluli/main/assets/icons/diversity.png" width="60" alt="Algorithms Icon"/>
-      <h3>Bias Mitigation Algorithms</h3>
-      <p><b>Methods:</b> Adversarial Debiasing, Reweighting, Post-processing Adjustments (e.g., Calibrated Equalized Odds).<br><b>Tools:</b> AIF360, Scikit-learn.</p>
+      <h3>⚖️ Fairness & Bias Mitigation</h3>
+      <p><b>Methods:</b> fairness metrics, reweighting, post-processing adjustments, and intersectional audit design.<br><b>Focus:</b> measuring and reducing harmful model disparities.</p>
     </td>
     <td align="center" width="33%">
-      <img src="https://raw.githubusercontent.com/louiseluli/louiseluli/main/assets/icons/privacy.png" width="60" alt="Privacy Icon"/>
-      <h3>Privacy & Security in ML</h3>
-      <p><b>Concepts:</b> Data Loss Prevention (DLP) Policies, Privacy Engineering, OSINT for Threat Modeling.<br><b>Certifications:</b> BigID Certified Admin.</p>
+      <h3>🔐 Privacy & Security in AI</h3>
+      <p><b>Background:</b> cybersecurity, DLP, privacy engineering, and governance-minded system design.<br><b>Approach:</b> building AI that is effective, safer, and more accountable.</p>
     </td>
   </tr>
 </table>
@@ -66,22 +75,21 @@ My expertise spans the full machine learning lifecycle, from data engineering an
 
 <div align="center">
   
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-  ![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
-  ![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-  
-  ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logoColor=white)
 
-  ![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge)
-  ![FAISS](https://img.shields.io/badge/FAISS-00599C?style=for-the-badge)
-  ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-  ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-00599C?style=for-the-badge)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
   
 </div>
 
@@ -96,7 +104,7 @@ My expertise spans the full machine learning lifecycle, from data engineering an
 
 ### 🎓 Academic & Research Highlights
 
-My academic journey has provided me with a unique interdisciplinary lens to approach complex AI challenges.
+My academic background combines technical machine learning work with interdisciplinary research on power, bias, and social impact.
 
 <div align="center">
   <img src="https://img.shields.io/badge/MSc-Artificial_Intelligence_(2025)-E91E63?style=flat-square&logo=graduation-cap&logoColor=white" />
@@ -106,9 +114,19 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
 
 <br>
 
-- **MSc in Artificial Intelligence (2025):** _Detecting and Mitigating Algorithmic Bias in ML Models Categorizing Adult Content Metadata._
-  - **Technical Focus:** Applied fairness metrics (Equal Opportunity, Demographic Parity) and advanced NLP techniques to analyze a dataset of nearly 700,000 videos, focusing on intersectional identities.
-- **MA in Cultural Studies & BA in International Relations:** Foundational training in critical thinking, societal structures, and qualitative analysis, which informs my approach to AI ethics.
+- **MSc in Artificial Intelligence (2025):** _Fairness in Machine Learning for Adult Content Categorisation_
+  - **Technical focus:** fairness evaluation and bias mitigation in metadata-based classification systems, using a dataset of nearly 700,000 videos with emphasis on intersectional disparities.
+- **MA in Cultural Studies & BA in International Relations**
+  - **Perspective:** interdisciplinary training that informs how I approach AI, governance, representation, and accountability.
+
+---
+
+### 🚀 Featured Work
+
+- **[Thesis_UniEssex_revised](https://github.com/louiseluli/Thesis_UniEssex_revised)** — fairness auditing and mitigation in sensitive-domain categorisation  
+- **[mentor-digital](https://github.com/louiseluli/mentor-digital)** — misinformation analysis with a media-literacy-first assistant  
+- **[classic-cinema-ai-analysis](https://github.com/louiseluli/classic-cinema-ai-analysis)** — machine learning analysis of classic cinema, culture, and representation  
+- **[louiseferreira.github.io](https://github.com/louiseluli/louiseferreira.github.io)** — portfolio, projects, and technical case studies  
 
 ---
 
@@ -121,7 +139,7 @@ My academic journey has provided me with a unique interdisciplinary lens to appr
   </a>
   &nbsp;
   <a href="mailto:louisesfer@gmail.com">
-    <img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=mail.ru&logoColor=white"
+    <img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white"
          alt="Email Louise" />
   </a>
   &nbsp;
